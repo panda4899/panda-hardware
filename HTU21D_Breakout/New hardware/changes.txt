@@ -1,0 +1,3 @@
+I switched the SDA and SCL pins to match the breakout boards we have, and made it slightly smaller. 
+
+9/11/2015 - Paul
