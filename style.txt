@@ -1,0 +1,28 @@
+Hardware style guide
+
+Pin Hole Size:
+Dia: 0.07
+Drill: 0.0393
+
+Mounting Hole Size:
+Dia: 0.15
+Drill: 0.1102
+
+Big Font:
+Size: 0.07
+Ratio: 8%
+Line Distance: 50%
+Font: Vector
+
+Small Font:
+Size: 0.04
+Ratio: 8%
+Line Distance: 50%
+Font: Vector
+
+Outside Line Dimension:
+Width: 0.005
+
+Symbol text:
+Size: 0.07
+Ratio: 8%
