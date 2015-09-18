@@ -1,7 +1,7 @@
 Hardware style guide
 
 Pin Hole Size:
-Dia: 0.07
+Dia: 0.07 = 1.778mm 
 Drill: 0.0393
 
 Mounting Hole Size:
