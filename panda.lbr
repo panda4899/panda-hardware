@@ -331,6 +331,25 @@ Humidity</text>
 <text x="-4.064" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-5.461" y="-1.778" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 </package>
+<package name="DIL08">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADC">
@@ -430,6 +449,21 @@ Humidity</text>
 <pin name="Y3" x="10.16" y="-10.16" length="short" rot="R180"/>
 <text x="-7.62" y="10.795" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="P82B715">
+<description>P82B715 I2C Bus Extender</description>
+<wire x1="0" y1="0" x2="0" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="20.32" y2="17.78" width="0.254" layer="94"/>
+<wire x1="20.32" y1="17.78" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="SY" x="-5.08" y="5.08" visible="pin" length="middle"/>
+<pin name="SX" x="-5.08" y="12.7" visible="pin" length="middle"/>
+<pin name="LX" x="25.4" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="LY" x="25.4" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="10.16" y="-5.08" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="VCC" x="10.16" y="22.86" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<text x="0" y="18.288" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-2.286" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -582,6 +616,27 @@ Humidity</text>
 <connect gate="G$1" pin="Y1" pad="5"/>
 <connect gate="G$1" pin="Y2" pad="2"/>
 <connect gate="G$1" pin="Y3" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="P82B715">
+<description>P82B715 I2C Bus Extender</description>
+<gates>
+<gate name="G$1" symbol="P82B715" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL08">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="LX" pad="2"/>
+<connect gate="G$1" pin="LY" pad="7"/>
+<connect gate="G$1" pin="SX" pad="3"/>
+<connect gate="G$1" pin="SY" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
