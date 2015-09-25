@@ -21,7 +21,7 @@ Line Distance: 50%
 Font: Vector
 
 Outside Line Dimension:
-Width: 0.005
+Width: 0.005 = 0.127mm
 
 Symbol text:
 Size: 0.07
