@@ -14340,6 +14340,11 @@ selection</text>
 <wire x1="208.28" y1="66.04" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
 <label x="213.36" y="66.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="BOB4" gate="G$1" pin="ADDR"/>
+<wire x1="53.34" y1="33.02" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
+<label x="45.72" y="33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MSCL" class="0">
 <segment>
