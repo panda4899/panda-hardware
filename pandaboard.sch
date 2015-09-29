@@ -452,27 +452,6 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <text x="-4.064" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-5.461" y="-1.778" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 </package>
-<package name="USB-FE-A">
-<description>&lt;b&gt;USB connector&lt;/b&gt; with shield&lt;p&gt;</description>
-<wire x1="-7.4" y1="-10.19" x2="7.4" y2="-10.19" width="0.254" layer="21"/>
-<wire x1="7.4" y1="-10.19" x2="7.4" y2="4.11" width="0.254" layer="21"/>
-<wire x1="7.4" y1="4.11" x2="-7.4" y2="4.11" width="0.254" layer="21"/>
-<wire x1="-7.4" y1="4.11" x2="-7.4" y2="-10.19" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="-2.87" x2="-3.81" y2="-8.72" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-8.72" x2="-2.54" y2="-8.72" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-8.72" x2="-1.27" y2="-2.87" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-2.87" x2="2.54" y2="-8.72" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-8.72" x2="3.81" y2="-8.72" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-8.72" x2="5.08" y2="-2.87" width="0.1524" layer="21"/>
-<pad name="2" x="-1" y="2.71" drill="0.95" shape="long" rot="R90"/>
-<pad name="3" x="1" y="2.71" drill="0.95" shape="long" rot="R90"/>
-<pad name="1" x="-3.5" y="2.71" drill="0.95" shape="long" rot="R90"/>
-<pad name="4" x="3.5" y="2.71" drill="0.95" shape="long" rot="R90"/>
-<pad name="S1" x="-6.57" y="0" drill="2.3" diameter="2.9"/>
-<pad name="S2" x="6.57" y="0" drill="2.3" diameter="2.9" rot="R180"/>
-<text x="-7.62" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="9.144" y="-10.16" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
 <package name="VOC">
 <description>MQ Series Socket Footprint</description>
 <pad name="H" x="-7.62" y="0" drill="2" diameter="3.81"/>
@@ -651,6 +630,27 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <circle x="0" y="0" radius="0.152596875" width="0.4064" layer="31"/>
 <circle x="0" y="0" radius="1.627346875" width="0.9652" layer="29"/>
 </package>
+<package name="USB-FE-A">
+<description>&lt;b&gt;USB connector&lt;/b&gt; with shield&lt;p&gt;</description>
+<wire x1="-7.4" y1="-10.19" x2="7.4" y2="-10.19" width="0.254" layer="21"/>
+<wire x1="7.4" y1="-10.19" x2="7.4" y2="4.11" width="0.254" layer="21"/>
+<wire x1="7.4" y1="4.11" x2="-7.4" y2="4.11" width="0.254" layer="21"/>
+<wire x1="-7.4" y1="4.11" x2="-7.4" y2="-10.19" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="-2.87" x2="-3.81" y2="-8.72" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-8.72" x2="-2.54" y2="-8.72" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-8.72" x2="-1.27" y2="-2.87" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-2.87" x2="2.54" y2="-8.72" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-8.72" x2="3.81" y2="-8.72" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-8.72" x2="5.08" y2="-2.87" width="0.1524" layer="21"/>
+<pad name="2" x="-1" y="2.71" drill="0.95" shape="long" rot="R90"/>
+<pad name="3" x="1" y="2.71" drill="0.95" shape="long" rot="R90"/>
+<pad name="1" x="-3.5" y="2.71" drill="0.95" shape="long" rot="R90"/>
+<pad name="4" x="3.5" y="2.71" drill="0.95" shape="long" rot="R90"/>
+<pad name="S1" x="-6.57" y="0" drill="2.3" diameter="2.9"/>
+<pad name="S2" x="6.57" y="0" drill="2.3" diameter="2.9" rot="R180"/>
+<text x="-7.62" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="9.144" y="-10.16" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PRESSURE">
@@ -812,41 +812,6 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <text x="-7.62" y="10.795" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="USB-SHIELD">
-<wire x1="0" y1="7.62" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-10.16" x2="2.54" y2="-9.398" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-8.89" x2="2.54" y2="-8.128" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="-5.334" x2="11.43" y2="-4.572" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="-4.064" x2="11.43" y2="-3.302" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="-2.794" x2="11.43" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="-1.524" x2="11.43" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="-0.254" x2="11.43" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="1.016" x2="11.43" y2="1.778" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="2.286" x2="11.43" y2="3.048" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="3.556" x2="11.43" y2="4.318" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="4.826" x2="11.43" y2="5.588" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="6.096" x2="11.43" y2="6.858" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="7.366" x2="11.43" y2="8.128" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="8.382" x2="10.668" y2="8.382" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="8.382" x2="9.398" y2="8.382" width="0.1524" layer="94"/>
-<wire x1="8.89" y1="8.382" x2="8.128" y2="8.382" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="8.382" x2="6.858" y2="8.382" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-7.112" x2="2.54" y2="-6.35" width="0.1524" layer="94"/>
-<wire x1="8.636" y1="-5.842" x2="2.794" y2="-5.842" width="0.1524" layer="94"/>
-<wire x1="9.906" y1="-5.842" x2="9.144" y2="-5.842" width="0.1524" layer="94"/>
-<wire x1="11.176" y1="-5.842" x2="10.414" y2="-5.842" width="0.1524" layer="94"/>
-<text x="0" y="8.89" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-<text x="10.16" y="-2.54" size="2.54" layer="94" rot="R90">USB</text>
-<pin name="VDD" x="-2.54" y="5.08" visible="pin" length="short" direction="pwr"/>
-<pin name="D-" x="-2.54" y="2.54" visible="pin" length="short" direction="pas"/>
-<pin name="D+" x="-2.54" y="0" visible="pin" length="short" direction="pas"/>
-<pin name="GND" x="-2.54" y="-2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="S1" x="0" y="-7.62" visible="pin" length="short" direction="pas"/>
-<pin name="S2" x="0" y="-10.16" visible="pin" length="short" direction="pas"/>
-</symbol>
 <symbol name="VOC">
 <description>MQ Series Socket symbol</description>
 <pin name="AO" x="-2.54" y="2.54" visible="pin" length="short" direction="out"/>
@@ -990,6 +955,41 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <text x="6.35" y="0" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="1" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="USB-SHIELD">
+<wire x1="0" y1="7.62" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-9.398" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-8.89" x2="2.54" y2="-8.128" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="-5.334" x2="11.43" y2="-4.572" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="-4.064" x2="11.43" y2="-3.302" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="-2.794" x2="11.43" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="-1.524" x2="11.43" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="-0.254" x2="11.43" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="1.016" x2="11.43" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="2.286" x2="11.43" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="3.556" x2="11.43" y2="4.318" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="4.826" x2="11.43" y2="5.588" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="6.096" x2="11.43" y2="6.858" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="7.366" x2="11.43" y2="8.128" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="8.382" x2="10.668" y2="8.382" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="8.382" x2="9.398" y2="8.382" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="8.382" x2="8.128" y2="8.382" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="8.382" x2="6.858" y2="8.382" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-7.112" x2="2.54" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="8.636" y1="-5.842" x2="2.794" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="9.906" y1="-5.842" x2="9.144" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="11.176" y1="-5.842" x2="10.414" y2="-5.842" width="0.1524" layer="94"/>
+<text x="13.716" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="16.002" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<text x="10.16" y="-2.54" size="2.54" layer="94" rot="R90">USB</text>
+<pin name="VDD" x="-2.54" y="5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="D-" x="-2.54" y="2.54" visible="pin" length="short" direction="pas"/>
+<pin name="D+" x="-2.54" y="0" visible="pin" length="short" direction="pas"/>
+<pin name="GND" x="-2.54" y="-2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="S1" x="0" y="-7.62" visible="pin" length="short" direction="pas"/>
+<pin name="S2" x="0" y="-10.16" visible="pin" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1233,32 +1233,6 @@ DIN A4, landscape with extra doc field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB-FE-A" prefix="X">
-<description>USB Female A Connector with shield</description>
-<gates>
-<gate name="G$1" symbol="USB-SHIELD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="USB-FE-A">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="S1" pad="S1"/>
-<connect gate="G$1" pin="S2" pad="S2"/>
-<connect gate="G$1" pin="VDD" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="VOC" prefix="S" uservalue="yes">
 <description>MQ series sensor socket</description>
 <gates>
@@ -1437,6 +1411,32 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB-FE-A" prefix="X">
+<description>USB Female A Connector with shield</description>
+<gates>
+<gate name="G$1" symbol="USB-SHIELD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB-FE-A">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="S1" pad="S1"/>
+<connect gate="G$1" pin="S2" pad="S2"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -13737,8 +13737,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U3" library="panda" deviceset="74HC4052" device="DIP"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="X2" library="panda" deviceset="USB-FE-A" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="5MM"/>
+<part name="LED1" library="led" deviceset="LED" device="5MM" value="POWER"/>
 <part name="R10" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="v-reg" deviceset="LP2950?*" device="ACZ" technology="-3.3"/>
@@ -13842,6 +13841,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="JP10" library="pinhead" deviceset="PINHD-2X2" device=""/>
 <part name="JP11" library="pinhead" deviceset="PINHD-1X6" device=""/>
 <part name="JP12" library="pinhead" deviceset="PINHD-1X6" device=""/>
+<part name="X1" library="panda" deviceset="USB-FE-A" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13885,7 +13885,7 @@ selection</text>
 <wire x1="162.56" y1="104.14" x2="162.56" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="162.56" y1="132.08" x2="220.98" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="220.98" y1="132.08" x2="220.98" y2="104.14" width="0.1524" layer="94" style="shortdash"/>
-<text x="172.72" y="129.54" size="1.778" layer="94">Closet 3.3v Regulator</text>
+<text x="165.1" y="129.54" size="1.778" layer="94">Closet 3.3v Regulator</text>
 <wire x1="96.52" y1="101.6" x2="182.88" y2="101.6" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="182.88" y1="101.6" x2="182.88" y2="60.96" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="182.88" y1="60.96" x2="96.52" y2="60.96" width="0.1524" layer="94" style="shortdash"/>
@@ -13930,7 +13930,6 @@ selection</text>
 <instance part="U3" gate="G$1" x="109.22" y="127"/>
 <instance part="GND9" gate="1" x="190.5" y="142.24"/>
 <instance part="GND10" gate="1" x="238.76" y="142.24"/>
-<instance part="X2" gate="G$1" x="116.84" y="167.64"/>
 <instance part="LED1" gate="G$1" x="81.28" y="170.18" rot="R270"/>
 <instance part="R10" gate="G$1" x="91.44" y="170.18" rot="R180"/>
 <instance part="GND12" gate="1" x="73.66" y="162.56"/>
@@ -14001,6 +14000,7 @@ selection</text>
 <instance part="JP10" gate="A" x="205.74" y="88.9"/>
 <instance part="JP11" gate="A" x="203.2" y="71.12"/>
 <instance part="JP12" gate="A" x="205.74" y="73.66" rot="R180"/>
+<instance part="X1" gate="G$1" x="116.84" y="167.64"/>
 </instances>
 <busses>
 </busses>
@@ -14212,17 +14212,17 @@ selection</text>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X2" gate="G$1" pin="GND"/>
 <wire x1="114.3" y1="165.1" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="S1"/>
 <wire x1="114.3" y1="160.02" x2="116.84" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="160.02" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
 <junction x="114.3" y="160.02"/>
-<pinref part="X2" gate="G$1" pin="S2"/>
 <wire x1="114.3" y1="157.48" x2="116.84" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="165.1" x2="109.22" y2="165.1" width="0.1524" layer="91"/>
-<junction x="114.3" y="165.1"/>
 <label x="111.76" y="165.1" size="1.778" layer="95" rot="R180"/>
+<pinref part="X1" gate="G$1" pin="GND"/>
+<junction x="114.3" y="165.1"/>
+<pinref part="X1" gate="G$1" pin="S1"/>
+<pinref part="X1" gate="G$1" pin="S2"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
@@ -14709,9 +14709,9 @@ selection</text>
 <pinref part="S1" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<pinref part="X2" gate="G$1" pin="VDD"/>
 <wire x1="114.3" y1="172.72" x2="109.22" y2="172.72" width="0.1524" layer="91"/>
 <label x="111.76" y="172.72" size="1.778" layer="95" rot="R180"/>
+<pinref part="X1" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
