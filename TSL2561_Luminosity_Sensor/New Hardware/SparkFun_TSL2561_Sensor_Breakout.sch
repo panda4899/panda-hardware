@@ -1270,8 +1270,6 @@ GND ("0")  010 1001 (0X29)
 
 DO NOT SHORT BOTH SIDES</text>
 <text x="148.844" y="6.604" size="2.54" layer="94" ratio="10">M Grusin</text>
-<text x="48.26" y="132.08" size="1.778" layer="97">OPEN BOTH SIDES OF SJ1
-TO DISABLE I2C PULLUPS</text>
 <text x="239.268" y="6.604" size="2.54" layer="94" ratio="10">1.0</text>
 </plain>
 <instances>

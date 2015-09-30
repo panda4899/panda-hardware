@@ -5379,9 +5379,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <sheet>
 <plain>
 <text x="175.26" y="7.62" size="2.54" layer="94">M Grusin</text>
-<text x="104.14" y="119.38" size="1.778" layer="97">SHORT BOTH SIDES OF SJ1</text>
-<text x="104.14" y="116.84" size="1.778" layer="97">TO ENABLE PULL-UP RESISTORS</text>
-<text x="104.14" y="114.3" size="1.778" layer="97">ON I2C LINES</text>
 <text x="238.76" y="7.62" size="2.54" layer="94">1.0</text>
 <text x="2.54" y="5.08" size="1.778" layer="97">Production note: DO NOT WASH</text>
 <text x="2.54" y="10.16" size="1.778" layer="97">See https://github.com/sparkfun/BMP180_Breakout for source files and example code</text>

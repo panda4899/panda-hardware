@@ -1533,8 +1533,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <sheet>
 <plain>
 <text x="171.958" y="11.43" size="2.54" layer="94">N. Seidle</text>
-<text x="165.1" y="114.3" size="1.778" layer="97">Clear both sides of SJ1
-to disable I2C pullup resistors</text>
 <text x="45.72" y="121.92" size="1.778" layer="97">VCC Rage: 1.5V to 3.6V</text>
 <text x="109.22" y="68.58" size="1.778" layer="97">7-bit I2C Address is 0x40</text>
 <text x="109.22" y="66.04" size="1.778" layer="97">I2C write is 0x80</text>
@@ -1644,10 +1642,4 @@ to disable I2C pullup resistors</text>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>

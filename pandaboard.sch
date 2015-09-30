@@ -141,25 +141,6 @@
 <libraries>
 <library name="panda">
 <packages>
-<package name="PRESSURE">
-<description>BMP180 Breakout Board</description>
-<wire x1="0" y1="0" x2="10.16" y2="0" width="0.127" layer="20"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="12.7" width="0.127" layer="20"/>
-<wire x1="10.16" y1="12.7" x2="0" y2="12.7" width="0.127" layer="20"/>
-<wire x1="0" y1="12.7" x2="0" y2="0" width="0.127" layer="20"/>
-<text x="5.334" y="5.842" size="1.778" layer="21" font="vector" align="bottom-center">BMP180</text>
-<text x="9.525" y="2.54" size="1.016" layer="21" font="vector" rot="R90">SDA</text>
-<text x="6.985" y="2.54" size="1.016" layer="21" font="vector" rot="R90">SCL</text>
-<text x="4.445" y="2.54" size="1.016" layer="21" font="vector" rot="R90">GND</text>
-<text x="1.905" y="2.54" size="1.016" layer="21" font="vector" rot="R90">VDD</text>
-<pad name="GND" x="3.81" y="1.27" drill="1" diameter="1.778"/>
-<pad name="SCL" x="6.35" y="1.27" drill="1" diameter="1.778"/>
-<pad name="SDA" x="8.89" y="1.27" drill="1" diameter="1.778"/>
-<pad name="VDD" x="1.27" y="1.27" drill="1" diameter="1.778" shape="square"/>
-<pad name="P$5" x="2.54" y="10.16" drill="2.8" diameter="3.81"/>
-<text x="0" y="12.954" size="1.016" layer="25">&gt;Name</text>
-<text x="0" y="-1.27" size="1.016" layer="27">&gt;Value</text>
-</package>
 <package name="2X20-SHROUDED">
 <wire x1="-2.775" y1="24.765" x2="-2.775" y2="23.495" width="0.2032" layer="21"/>
 <wire x1="4.5" y1="29.15" x2="4.5" y2="-29.15" width="0.2032" layer="21"/>
@@ -342,39 +323,6 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
 <text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="ADC">
-<description>ADS1115 Breakout Board</description>
-<text x="24.892" y="4.826" size="1.016" layer="21" rot="R270">A3</text>
-<text x="22.352" y="4.826" size="1.016" layer="21" rot="R270">A2</text>
-<text x="19.812" y="4.826" size="1.016" layer="21" rot="R270">A1</text>
-<text x="17.272" y="4.826" size="1.016" layer="21" rot="R270">A0</text>
-<text x="14.732" y="6.604" size="1.016" layer="21" rot="R270">ALRT</text>
-<text x="12.192" y="6.604" size="1.016" layer="21" rot="R270">ADDR</text>
-<text x="9.652" y="5.842" size="1.016" layer="21" rot="R270">SDA</text>
-<text x="7.366" y="5.842" size="1.016" layer="21" rot="R270">SCL</text>
-<text x="4.572" y="5.842" size="1.016" layer="21" rot="R270">GND</text>
-<text x="2.032" y="5.842" size="1.016" layer="21" rot="R270">VDD</text>
-<text x="5.842" y="10.668" size="2.54" layer="21">ADS1115</text>
-<text x="6.096" y="8.636" size="1.27" layer="21">16Bit I2C ADC</text>
-<wire x1="27.94" y1="17.018" x2="27.94" y2="0" width="0.127" layer="20"/>
-<wire x1="27.94" y1="0" x2="0" y2="0" width="0.127" layer="20"/>
-<wire x1="0" y1="0" x2="0" y2="17.018" width="0.127" layer="20"/>
-<wire x1="0" y1="17.018" x2="27.94" y2="17.018" width="0.127" layer="20"/>
-<pad name="VDD" x="2.54" y="1.778" drill="1" diameter="1.778" shape="square"/>
-<pad name="GND" x="5.08" y="1.778" drill="1" diameter="1.778"/>
-<pad name="SCL" x="7.62" y="1.778" drill="1" diameter="1.778"/>
-<pad name="SDA" x="10.16" y="1.778" drill="1" diameter="1.778"/>
-<pad name="ADDR" x="12.7" y="1.778" drill="1" diameter="1.778"/>
-<pad name="ALRT" x="15.24" y="1.778" drill="1" diameter="1.778"/>
-<pad name="A0" x="17.78" y="1.778" drill="1" diameter="1.778"/>
-<pad name="A1" x="20.32" y="1.778" drill="1" diameter="1.778"/>
-<pad name="A2" x="22.86" y="1.778" drill="1" diameter="1.778"/>
-<pad name="A3" x="25.4" y="1.778" drill="1" diameter="1.778"/>
-<text x="0" y="17.272" size="1.27" layer="25">&gt;Name</text>
-<text x="0" y="-1.524" size="1.27" layer="27">&gt;Value</text>
-<pad name="HOLE" x="2.54" y="14.478" drill="2.8" diameter="3.81"/>
-<pad name="HOLE@2" x="25.4" y="14.478" drill="2.8" diameter="3.81" rot="R90"/>
 </package>
 <package name="DIL16">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
@@ -651,21 +599,60 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <circle x="0" y="0" radius="0.152596875" width="0.4064" layer="31"/>
 <circle x="0" y="0" radius="1.627346875" width="0.9652" layer="29"/>
 </package>
+<package name="PRESSURE">
+<description>BMP180 Breakout Board</description>
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.127" layer="21"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="12.7" width="0.127" layer="21"/>
+<wire x1="10.16" y1="12.7" x2="0" y2="12.7" width="0.127" layer="21"/>
+<wire x1="0" y1="12.7" x2="0" y2="0" width="0.127" layer="21"/>
+<text x="5.334" y="5.842" size="1.778" layer="21" font="vector" align="bottom-center">BMP180</text>
+<text x="9.525" y="2.54" size="1.016" layer="21" font="vector" rot="R90">SDA</text>
+<text x="6.985" y="2.54" size="1.016" layer="21" font="vector" rot="R90">SCL</text>
+<text x="4.445" y="2.54" size="1.016" layer="21" font="vector" rot="R90">GND</text>
+<text x="1.905" y="2.54" size="1.016" layer="21" font="vector" rot="R90">VDD</text>
+<pad name="GND" x="3.81" y="1.27" drill="1" diameter="1.778"/>
+<pad name="SCL" x="6.35" y="1.27" drill="1" diameter="1.778"/>
+<pad name="SDA" x="8.89" y="1.27" drill="1" diameter="1.778"/>
+<pad name="VDD" x="1.27" y="1.27" drill="1" diameter="1.778" shape="square"/>
+<pad name="P$5" x="2.54" y="10.16" drill="2.8" diameter="3.81"/>
+<text x="0" y="12.954" size="1.016" layer="25">&gt;Name</text>
+<text x="0" y="-1.27" size="1.016" layer="27">&gt;Value</text>
+</package>
+<package name="ADC">
+<description>ADS1115 Breakout Board</description>
+<text x="24.892" y="4.826" size="1.016" layer="21" rot="R270">A3</text>
+<text x="22.352" y="4.826" size="1.016" layer="21" rot="R270">A2</text>
+<text x="19.812" y="4.826" size="1.016" layer="21" rot="R270">A1</text>
+<text x="17.272" y="4.826" size="1.016" layer="21" rot="R270">A0</text>
+<text x="14.732" y="6.604" size="1.016" layer="21" rot="R270">ALRT</text>
+<text x="12.192" y="6.604" size="1.016" layer="21" rot="R270">ADDR</text>
+<text x="9.652" y="5.842" size="1.016" layer="21" rot="R270">SDA</text>
+<text x="7.366" y="5.842" size="1.016" layer="21" rot="R270">SCL</text>
+<text x="4.572" y="5.842" size="1.016" layer="21" rot="R270">GND</text>
+<text x="2.032" y="5.842" size="1.016" layer="21" rot="R270">VDD</text>
+<text x="5.842" y="10.668" size="2.54" layer="21">ADS1115</text>
+<text x="6.096" y="8.636" size="1.27" layer="21">16Bit I2C ADC</text>
+<wire x1="27.94" y1="17.018" x2="27.94" y2="0" width="0.127" layer="21"/>
+<wire x1="27.94" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="17.018" width="0.127" layer="21"/>
+<wire x1="0" y1="17.018" x2="27.94" y2="17.018" width="0.127" layer="21"/>
+<pad name="VDD" x="2.54" y="1.778" drill="1" diameter="1.778" shape="square"/>
+<pad name="GND" x="5.08" y="1.778" drill="1" diameter="1.778"/>
+<pad name="SCL" x="7.62" y="1.778" drill="1" diameter="1.778"/>
+<pad name="SDA" x="10.16" y="1.778" drill="1" diameter="1.778"/>
+<pad name="ADDR" x="12.7" y="1.778" drill="1" diameter="1.778"/>
+<pad name="ALRT" x="15.24" y="1.778" drill="1" diameter="1.778"/>
+<pad name="A0" x="17.78" y="1.778" drill="1" diameter="1.778"/>
+<pad name="A1" x="20.32" y="1.778" drill="1" diameter="1.778"/>
+<pad name="A2" x="22.86" y="1.778" drill="1" diameter="1.778"/>
+<pad name="A3" x="25.4" y="1.778" drill="1" diameter="1.778"/>
+<text x="0" y="17.272" size="1.27" layer="25">&gt;Name</text>
+<text x="0" y="-1.524" size="1.27" layer="27">&gt;Value</text>
+<pad name="HOLE" x="2.54" y="14.478" drill="2.8" diameter="3.81"/>
+<pad name="HOLE@2" x="25.4" y="14.478" drill="2.8" diameter="3.81" rot="R90"/>
+</package>
 </packages>
 <symbols>
-<symbol name="PRESSURE">
-<pin name="SCL" x="-2.54" y="5.08" visible="pin" length="short"/>
-<pin name="SDA" x="-2.54" y="2.54" visible="pin" length="short"/>
-<pin name="GND" x="-2.54" y="7.62" visible="pin" length="short" direction="pwr"/>
-<pin name="VDD" x="-2.54" y="10.16" visible="pin" length="short" direction="pwr"/>
-<wire x1="0" y1="0" x2="0" y2="12.7" width="0.254" layer="94"/>
-<wire x1="0" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<text x="10.16" y="2.54" size="1.778" layer="94" rot="R90">BMP180</text>
-<text x="0" y="13.208" size="1.778" layer="95">&gt;Name</text>
-<text x="0" y="-2.286" size="1.778" layer="96">&gt;Value</text>
-</symbol>
 <symbol name="DINA4_L">
 <wire x1="264.16" y1="0" x2="264.16" y2="180.34" width="0.4064" layer="94"/>
 <wire x1="264.16" y1="180.34" x2="0" y2="180.34" width="0.4064" layer="94"/>
@@ -752,26 +739,6 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <wire x1="3.556" y1="-27.94" x2="3.556" y2="-30.48" width="0.254" layer="95"/>
 <text x="3.048" y="-30.734" size="1.778" layer="95" rot="R90">B+</text>
 <text x="-1.524" y="1.27" size="1.778" layer="95" rot="R90">B+</text>
-</symbol>
-<symbol name="ADC">
-<description>ADS1115 Breakout Board</description>
-<pin name="VDD" x="-2.54" y="25.4" visible="pin" length="short" direction="pwr"/>
-<pin name="GND" x="-2.54" y="22.86" visible="pin" length="short" direction="pwr"/>
-<pin name="SCL" x="-2.54" y="20.32" visible="pin" length="short"/>
-<pin name="SDA" x="-2.54" y="17.78" visible="pin" length="short"/>
-<pin name="ADDR" x="-2.54" y="15.24" visible="pin" length="short"/>
-<pin name="ALRT" x="-2.54" y="12.7" visible="pin" length="short" direction="out"/>
-<pin name="A0" x="-2.54" y="10.16" visible="pin" length="short" direction="in"/>
-<pin name="A1" x="-2.54" y="7.62" visible="pin" length="short" direction="in"/>
-<pin name="A2" x="-2.54" y="5.08" visible="pin" length="short" direction="in"/>
-<pin name="A3" x="-2.54" y="2.54" visible="pin" length="short" direction="in"/>
-<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="27.94" width="0.254" layer="94"/>
-<wire x1="10.16" y1="27.94" x2="0" y2="27.94" width="0.254" layer="94"/>
-<wire x1="0" y1="27.94" x2="0" y2="0" width="0.254" layer="94"/>
-<text x="10.16" y="2.54" size="1.778" layer="94" rot="R90">ADS1115</text>
-<text x="0" y="28.448" size="1.778" layer="95">&gt;Name</text>
-<text x="0" y="-2.286" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="P82B715">
 <description>P82B715 I2C Bus Extender</description>
@@ -991,27 +958,41 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="1" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
+<symbol name="PRESSURE">
+<pin name="SCL" x="-2.54" y="5.08" visible="pin" length="short"/>
+<pin name="SDA" x="-2.54" y="2.54" visible="pin" length="short"/>
+<pin name="GND" x="-2.54" y="7.62" visible="pin" length="short" direction="pwr"/>
+<pin name="VDD" x="-2.54" y="10.16" visible="pin" length="short" direction="pwr"/>
+<wire x1="0" y1="0" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="10.16" y="2.54" size="1.778" layer="94" rot="R90">BMP180</text>
+<text x="0" y="13.208" size="1.778" layer="95">&gt;Name</text>
+<text x="0" y="-2.286" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="ADC">
+<description>ADS1115 Breakout Board</description>
+<pin name="VDD" x="-2.54" y="25.4" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="-2.54" y="22.86" visible="pin" length="short" direction="pwr"/>
+<pin name="SCL" x="-2.54" y="20.32" visible="pin" length="short"/>
+<pin name="SDA" x="-2.54" y="17.78" visible="pin" length="short"/>
+<pin name="ADDR" x="-2.54" y="15.24" visible="pin" length="short"/>
+<pin name="ALRT" x="-2.54" y="12.7" visible="pin" length="short" direction="out"/>
+<pin name="A0" x="-2.54" y="10.16" visible="pin" length="short" direction="in"/>
+<pin name="A1" x="-2.54" y="7.62" visible="pin" length="short" direction="in"/>
+<pin name="A2" x="-2.54" y="5.08" visible="pin" length="short" direction="in"/>
+<pin name="A3" x="-2.54" y="2.54" visible="pin" length="short" direction="in"/>
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="27.94" width="0.254" layer="94"/>
+<wire x1="10.16" y1="27.94" x2="0" y2="27.94" width="0.254" layer="94"/>
+<wire x1="0" y1="27.94" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="10.16" y="2.54" size="1.778" layer="94" rot="R90">ADS1115</text>
+<text x="0" y="28.448" size="1.778" layer="95">&gt;Name</text>
+<text x="0" y="-2.286" size="1.778" layer="96">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="PRESSURE" prefix="BOB">
-<description>BMP180 Breakout Board</description>
-<gates>
-<gate name="G$1" symbol="PRESSURE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PRESSURE">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND P$5"/>
-<connect gate="G$1" pin="SCL" pad="SCL"/>
-<connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VDD" pad="VDD"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="DINA4_L" prefix="FRAME">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A4, landscape with extra doc field</description>
@@ -1129,31 +1110,6 @@ DIN A4, landscape with extra doc field</description>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-13143" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ADC" prefix="BOB">
-<description>ADS1115 Breakout Board</description>
-<gates>
-<gate name="G$1" symbol="ADC" x="-5.08" y="15.24"/>
-</gates>
-<devices>
-<device name="" package="ADC">
-<connects>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="ADDR" pad="ADDR"/>
-<connect gate="G$1" pin="ALRT" pad="ALRT"/>
-<connect gate="G$1" pin="GND" pad="GND HOLE HOLE@2"/>
-<connect gate="G$1" pin="SCL" pad="SCL"/>
-<connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VDD" pad="VDD"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1434,6 +1390,50 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PRESSURE" prefix="BOB">
+<description>BMP180 Breakout Board</description>
+<gates>
+<gate name="G$1" symbol="PRESSURE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PRESSURE">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND P$5"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADC" prefix="BOB">
+<description>ADS1115 Breakout Board</description>
+<gates>
+<gate name="G$1" symbol="ADC" x="-5.08" y="15.24"/>
+</gates>
+<devices>
+<device name="" package="ADC">
+<connects>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="ADDR" pad="ADDR"/>
+<connect gate="G$1" pin="ALRT" pad="ALRT"/>
+<connect gate="G$1" pin="GND" pad="GND HOLE HOLE@2"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13713,7 +13713,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="BOB3" library="panda" deviceset="PRESSURE" device=""/>
 <part name="JP7" library="jumper" deviceset="JP1Q" device="" value="JSDA"/>
 <part name="JP8" library="jumper" deviceset="JP1Q" device="" value="JSCL"/>
 <part name="R4" library="resistor" deviceset="R-US_" device="R1206" value="10k"/>
@@ -13727,7 +13726,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
-<part name="BOB1" library="panda" deviceset="ADC" device=""/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="12V" library="con-wago-500" deviceset="W237-102" device=""/>
@@ -13842,6 +13840,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="JP12" library="pinhead" deviceset="PINHD-1X6" device=""/>
 <part name="X1" library="panda" deviceset="USB-FE-A" device=""/>
 <part name="M1" library="panda" deviceset="MIC" device="9.7MM"/>
+<part name="BOB3" library="panda" deviceset="PRESSURE" device=""/>
+<part name="BOB1" library="panda" deviceset="ADC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13904,7 +13904,6 @@ selection</text>
 <text x="187.96" y="99.06" size="1.778" layer="94">Extra Connectors</text>
 </plain>
 <instances>
-<instance part="BOB3" gate="G$1" x="248.92" y="88.9"/>
 <instance part="JP7" gate="A" x="137.16" y="139.7"/>
 <instance part="JP8" gate="A" x="137.16" y="116.84"/>
 <instance part="R4" gate="G$1" x="76.2" y="121.92" rot="R90"/>
@@ -13919,7 +13918,6 @@ selection</text>
 <instance part="GND3" gate="1" x="30.48" y="66.04"/>
 <instance part="R2" gate="G$1" x="48.26" y="88.9" rot="R90"/>
 <instance part="R3" gate="G$1" x="58.42" y="88.9" rot="R90"/>
-<instance part="BOB1" gate="G$1" x="55.88" y="17.78"/>
 <instance part="R1" gate="G$1" x="12.7" y="33.02" rot="R90"/>
 <instance part="GND2" gate="1" x="12.7" y="22.86"/>
 <instance part="12V" gate="-1" x="180.34" y="165.1" rot="R270"/>
@@ -14001,6 +13999,8 @@ selection</text>
 <instance part="JP12" gate="A" x="205.74" y="73.66" rot="R180"/>
 <instance part="X1" gate="G$1" x="116.84" y="167.64"/>
 <instance part="M1" gate="G$1" x="83.82" y="30.48" rot="R90"/>
+<instance part="BOB3" gate="G$1" x="248.92" y="88.9"/>
+<instance part="BOB1" gate="G$1" x="55.88" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -14018,10 +14018,10 @@ selection</text>
 </segment>
 <segment>
 <wire x1="246.38" y1="99.06" x2="238.76" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="BOB3" gate="G$1" pin="VDD"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="99.06" x2="236.22" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="BOB3" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="66.04" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
@@ -14043,10 +14043,10 @@ selection</text>
 <wire x1="20.32" y1="162.56" x2="10.16" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BOB1" gate="G$1" pin="VDD"/>
 <wire x1="53.34" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
 <label x="45.72" y="43.18" size="1.778" layer="95"/>
 <pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="BOB1" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
@@ -14108,13 +14108,13 @@ selection</text>
 <pinref part="BOB2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="BOB3" gate="G$1" pin="GND"/>
 <wire x1="246.38" y1="96.52" x2="238.76" y2="96.52" width="0.1524" layer="91"/>
 <label x="238.76" y="96.52" size="1.778" layer="95"/>
 <label x="238.76" y="68.58" size="1.778" layer="95"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="93.98" x2="236.22" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="93.98" x2="238.76" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="BOB3" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="68.58" x2="238.76" y2="68.58" width="0.1524" layer="91"/>
@@ -14190,11 +14190,11 @@ selection</text>
 <wire x1="30.48" y1="68.58" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BOB1" gate="G$1" pin="GND"/>
 <label x="45.72" y="40.64" size="1.778" layer="95"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="43.18" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="BOB1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="40.64" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
@@ -14341,9 +14341,9 @@ selection</text>
 <label x="213.36" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BOB1" gate="G$1" pin="ADDR"/>
 <wire x1="53.34" y1="33.02" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
 <label x="45.72" y="33.02" size="1.778" layer="95"/>
+<pinref part="BOB1" gate="G$1" pin="ADDR"/>
 </segment>
 </net>
 <net name="MSCL" class="0">
@@ -14353,9 +14353,9 @@ selection</text>
 <pinref part="BOB2" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
-<pinref part="BOB3" gate="G$1" pin="SCL"/>
 <wire x1="246.38" y1="93.98" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
 <label x="238.76" y="93.98" size="1.778" layer="95"/>
+<pinref part="BOB3" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="71.12" x2="238.76" y2="71.12" width="0.1524" layer="91"/>
@@ -14373,9 +14373,9 @@ selection</text>
 <pinref part="TP8" gate="G$1" pin="TP"/>
 </segment>
 <segment>
-<pinref part="BOB1" gate="G$1" pin="SCL"/>
 <wire x1="53.34" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
 <label x="45.72" y="38.1" size="1.778" layer="95"/>
+<pinref part="BOB1" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
 <pinref part="JP12" gate="A" pin="5"/>
@@ -14400,9 +14400,9 @@ selection</text>
 <pinref part="BOB4" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
-<pinref part="BOB3" gate="G$1" pin="SDA"/>
 <wire x1="246.38" y1="91.44" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
 <label x="238.76" y="91.44" size="1.778" layer="95"/>
+<pinref part="BOB3" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
 <label x="121.92" y="134.62" size="1.778" layer="95"/>
@@ -14417,9 +14417,9 @@ selection</text>
 <pinref part="TP6" gate="G$1" pin="TP"/>
 </segment>
 <segment>
-<pinref part="BOB1" gate="G$1" pin="SDA"/>
 <wire x1="53.34" y1="35.56" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
 <label x="45.72" y="35.56" size="1.778" layer="95"/>
+<pinref part="BOB1" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
 <pinref part="JP10" gate="A" pin="2"/>
@@ -14697,9 +14697,9 @@ selection</text>
 <junction x="12.7" y="38.1"/>
 </segment>
 <segment>
-<pinref part="BOB1" gate="G$1" pin="A0"/>
 <wire x1="53.34" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
 <label x="45.72" y="27.94" size="1.778" layer="95"/>
+<pinref part="BOB1" gate="G$1" pin="A0"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -14843,17 +14843,17 @@ selection</text>
 </net>
 <net name="A2" class="0">
 <segment>
-<pinref part="BOB1" gate="G$1" pin="A2"/>
 <label x="45.72" y="22.86" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="22.86" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="BOB1" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="A3" class="0">
 <segment>
-<pinref part="BOB1" gate="G$1" pin="A3"/>
 <wire x1="53.34" y1="20.32" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
 <label x="45.72" y="20.32" size="1.778" layer="95"/>
+<pinref part="BOB1" gate="G$1" pin="A3"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -14870,17 +14870,17 @@ selection</text>
 </net>
 <net name="A1" class="0">
 <segment>
-<pinref part="BOB1" gate="G$1" pin="A1"/>
 <label x="45.72" y="25.4" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="25.4" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="BOB1" gate="G$1" pin="A1"/>
 </segment>
 </net>
 <net name="ALRT" class="0">
 <segment>
-<pinref part="BOB1" gate="G$1" pin="ALRT"/>
 <wire x1="53.34" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
 <label x="45.72" y="30.48" size="1.778" layer="95"/>
+<pinref part="BOB1" gate="G$1" pin="ALRT"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="GP23"/>
