@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -243,14 +243,12 @@
 <pad name="H@2" x="7.38" y="0" drill="2" diameter="3.81"/>
 <pad name="B" x="5.38" y="5" drill="2" diameter="3.81" rot="R180"/>
 <text x="-11.35" y="-1" size="1.778" layer="21" font="vector">H</text>
-<text x="9.35" y="-1" size="1.778" layer="21">H</text>
-<text x="8.35" y="3" size="1.778" layer="21">B</text>
-<text x="8.35" y="-6" size="1.778" layer="21">B</text>
+<text x="9.652" y="-1.016" size="1.778" layer="21">H</text>
+<text x="7.747" y="4.064" size="1.778" layer="21">B</text>
+<text x="7.874" y="-5.969" size="1.778" layer="21">B</text>
 <text x="-9.35" y="-6" size="1.778" layer="21">A</text>
 <text x="-9.35" y="4.27" size="1.778" layer="21">A</text>
 <circle x="-0.12" y="0" radius="12" width="0.127" layer="21"/>
-<text x="-3.81" y="8.62" size="1.778" layer="21">MQ135</text>
-<text x="-4.27" y="-9.66" size="1.27" layer="21">Air Quality</text>
 <text x="-2.54" y="12.7" size="1.27" layer="25">&gt;Name</text>
 <text x="-2.54" y="-13.97" size="1.27" layer="27">&gt;Value</text>
 </package>
@@ -4191,6 +4189,25 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="TXANT" x="12.7" y="-5.08" length="short" direction="in" rot="R180"/>
 <pin name="VCC" x="-12.7" y="12.7" length="short"/>
 </symbol>
+<symbol name="CAT24C32">
+<description>CAT24C32
+32-Kb I2C CMOS Serial
+EEPROM</description>
+<pin name="SCL" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="A2" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="VSS" x="-10.16" y="-7.62" visible="pin" length="short"/>
+<pin name="A0" x="-10.16" y="7.62" visible="pin" length="short"/>
+<pin name="A1" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="SDA" x="10.16" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="WP" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="VCC" x="10.16" y="7.62" visible="pin" length="short" rot="R180"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="10.668" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ADC" prefix="BOB">
@@ -6049,6 +6066,31 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </gates>
 <devices>
 <device name="SMD" package="EM7180SFP">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAT24C32" prefix="U">
+<description>CAT24C32
+32-Kb I2C CMOS Serial
+EEPROM</description>
+<gates>
+<gate name="G$1" symbol="CAT24C32" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL08">
+<connects>
+<connect gate="G$1" pin="A0" pad="1"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+<connect gate="G$1" pin="WP" pad="7"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
