@@ -4172,12 +4172,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="10.16" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
 <text x="-10.16" y="16.002" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VDD" x="-12.7" y="12.7" length="short"/>
-<pin name="SDAS" x="-12.7" y="7.62" length="short"/>
-<pin name="SCLS" x="-12.7" y="2.54" length="short"/>
-<pin name="GND" x="12.7" y="12.7" length="short" rot="R180"/>
-<pin name="SA0" x="12.7" y="7.62" length="short" rot="R180"/>
-<pin name="HOST_INT" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="VDD" x="-12.7" y="12.7" visible="pin" length="short"/>
+<pin name="SDAS" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="SCLS" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="GND" x="12.7" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="SA0" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="HOST_INT" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
 </symbol>
 <symbol name="CAT24C32">
 <description>CAT24C32
