@@ -6049,7 +6049,7 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </device>
 </devices>
 </deviceset>
-<deviceset name="EM7180SFP">
+<deviceset name="EM7180SFP" prefix="U">
 <description>EM7180SFP</description>
 <gates>
 <gate name="G$1" symbol="EM7180SFP" x="0" y="0"/>

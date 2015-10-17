@@ -471,6 +471,21 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <hole x="-5.715" y="0" drill="3.2"/>
 <hole x="5.715" y="0" drill="3.2"/>
 </package>
+<package name="EM7180SFP">
+<description>EM7180SFP</description>
+<wire x1="-5.3" y1="4.5" x2="4.9" y2="4.5" width="0.2032" layer="21"/>
+<wire x1="4.9" y1="-4.2" x2="-5.3" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-5.3" y1="4.5" x2="-5.3" y2="-4.2" width="0.2032" layer="51"/>
+<wire x1="4.9" y1="-4.2" x2="4.9" y2="4.5" width="0.2032" layer="51"/>
+<smd name="VDD" x="-5.3" y="2.7" dx="1.6" dy="2" layer="1" rot="R90"/>
+<smd name="SDAS" x="-5.3" y="0.9" dx="1.3" dy="2" layer="1" rot="R90"/>
+<smd name="SCLS" x="-5.3" y="-0.727" dx="1.3" dy="2" layer="1" rot="R90"/>
+<smd name="HOST_INT" x="4.9" y="-0.6" dx="1.3" dy="2" layer="1" rot="R90"/>
+<smd name="SA0" x="4.9" y="0.9" dx="1.3" dy="2" layer="1" rot="R90"/>
+<smd name="GND" x="4.9" y="2.7" dx="1.6" dy="2" layer="1" rot="R90"/>
+<text x="-2.8" y="-0.5" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-2.8" y="0.3" size="0.4064" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DINA4_L">
@@ -677,6 +692,20 @@ EEPROM</description>
 <wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
 <text x="-7.62" y="10.668" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="EM7180SFP">
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<text x="-10.16" y="16.002" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VDD" x="-12.7" y="12.7" visible="pin" length="short"/>
+<pin name="SDAS" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="SCLS" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="GND" x="12.7" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="SA0" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="HOST_INT" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -957,6 +986,27 @@ EEPROM</description>
 <connect gate="G$1" pin="VCC" pad="8"/>
 <connect gate="G$1" pin="VSS" pad="4"/>
 <connect gate="G$1" pin="WP" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EM7180SFP" prefix="U">
+<description>EM7180SFP</description>
+<gates>
+<gate name="G$1" symbol="EM7180SFP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="EM7180SFP">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="HOST_INT" pad="HOST_INT"/>
+<connect gate="G$1" pin="SA0" pad="SA0"/>
+<connect gate="G$1" pin="SCLS" pad="SCLS"/>
+<connect gate="G$1" pin="SDAS" pad="SDAS"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13151,6 +13201,7 @@ high speed (Philips)</description>
 <part name="JP26" library="SparkFun-Connectors" deviceset="M05" device="PTH" value="SOUND"/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD" value="1206L110"/>
 <part name="D1" library="diode" deviceset="1N4148" device="DO35-10" value="1N5817"/>
+<part name="U5" library="panda" deviceset="EM7180SFP" device="SMD"/>
 </parts>
 <sheets>
 <sheet>
@@ -13251,6 +13302,7 @@ selection</text>
 <instance part="GND24" gate="1" x="233.68" y="114.3"/>
 <instance part="JP25" gate="G$1" x="213.36" y="101.6" rot="R180"/>
 <instance part="JP26" gate="G$1" x="256.54" y="99.06" rot="R180"/>
+<instance part="U5" gate="G$1" x="236.22" y="175.26"/>
 </instances>
 <busses>
 </busses>
@@ -13360,6 +13412,11 @@ selection</text>
 <wire x1="246.38" y1="137.16" x2="254" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="254" y1="137.16" x2="254" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="254" y1="142.24" x2="215.9" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="VDD"/>
+<wire x1="223.52" y1="187.96" x2="213.36" y2="187.96" width="0.1524" layer="91"/>
+<label x="213.36" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -13668,6 +13725,16 @@ selection</text>
 <wire x1="248.92" y1="93.98" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
 <label x="238.76" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="GND"/>
+<wire x1="248.92" y1="187.96" x2="259.08" y2="187.96" width="0.1524" layer="91"/>
+<label x="254" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="SA0"/>
+<wire x1="248.92" y1="182.88" x2="259.08" y2="182.88" width="0.1524" layer="91"/>
+<label x="254" y="182.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MSCL" class="0">
 <segment>
@@ -13735,6 +13802,11 @@ selection</text>
 <pinref part="JP23" gate="A" pin="6"/>
 <wire x1="223.52" y1="53.34" x2="233.68" y2="53.34" width="0.1524" layer="91"/>
 <label x="231.14" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="SCLS"/>
+<wire x1="223.52" y1="177.8" x2="213.36" y2="177.8" width="0.1524" layer="91"/>
+<label x="213.36" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MSDA" class="0">
@@ -13807,6 +13879,11 @@ selection</text>
 <pinref part="JP23" gate="A" pin="8"/>
 <wire x1="223.52" y1="50.8" x2="233.68" y2="50.8" width="0.1524" layer="91"/>
 <label x="231.14" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="SDAS"/>
+<wire x1="223.52" y1="182.88" x2="213.36" y2="182.88" width="0.1524" layer="91"/>
+<label x="213.36" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -14293,6 +14370,11 @@ selection</text>
 <pinref part="IC1" gate="G$1" pin="GP3"/>
 <wire x1="154.94" y1="129.54" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
 <label x="162.56" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="HOST_INT"/>
+<wire x1="248.92" y1="177.8" x2="259.08" y2="177.8" width="0.1524" layer="91"/>
+<label x="254" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IRQ2" class="0">
