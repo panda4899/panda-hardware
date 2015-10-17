@@ -6168,7 +6168,7 @@ EEPROM</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MC74VHC1GT125">
+<deviceset name="MC74VHC1GT125" prefix="U">
 <description>MC74VHC1GT125
 Noninverting Buffer /
 CMOS Logic Level Shifter
