@@ -473,18 +473,18 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 </package>
 <package name="EM7180SFP">
 <description>EM7180SFP</description>
-<wire x1="-5.3" y1="4.5" x2="4.9" y2="4.5" width="0.2032" layer="21"/>
-<wire x1="4.9" y1="-4.2" x2="-5.3" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="-5.3" y1="4.5" x2="-5.3" y2="-4.2" width="0.2032" layer="51"/>
-<wire x1="4.9" y1="-4.2" x2="4.9" y2="4.5" width="0.2032" layer="51"/>
-<smd name="VDD" x="-5.3" y="2.7" dx="1.6" dy="2" layer="1" rot="R90"/>
-<smd name="SDAS" x="-5.3" y="0.9" dx="1.3" dy="2" layer="1" rot="R90"/>
-<smd name="SCLS" x="-5.3" y="-0.727" dx="1.3" dy="2" layer="1" rot="R90"/>
-<smd name="HOST_INT" x="4.9" y="-0.6" dx="1.3" dy="2" layer="1" rot="R90"/>
-<smd name="SA0" x="4.9" y="0.9" dx="1.3" dy="2" layer="1" rot="R90"/>
-<smd name="GND" x="4.9" y="2.7" dx="1.6" dy="2" layer="1" rot="R90"/>
-<text x="-2.8" y="-0.5" size="0.4064" layer="27">&gt;VALUE</text>
-<text x="-2.8" y="0.3" size="0.4064" layer="25">&gt;NAME</text>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="-6.35" x2="-5.08" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-6.35" width="0.2032" layer="51"/>
+<wire x1="5.08" y1="-6.35" x2="5.08" y2="5.08" width="0.2032" layer="51"/>
+<smd name="VDD" x="-5.08" y="2.54" dx="1.6" dy="2" layer="1" rot="R90"/>
+<smd name="SDAS" x="-5.08" y="0" dx="1.6" dy="2" layer="1" rot="R90"/>
+<smd name="SCLS" x="-5.08" y="-2.54" dx="1.6" dy="2" layer="1" rot="R90"/>
+<smd name="HOST_INT" x="5.08" y="-2.54" dx="1.6" dy="2" layer="1" rot="R90"/>
+<smd name="SA0" x="5.08" y="0" dx="1.6" dy="2" layer="1" rot="R90"/>
+<smd name="GND" x="5.08" y="2.54" dx="1.6" dy="2" layer="1" rot="R90"/>
+<text x="1.77" y="-4.07" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-2.24" y="1.53" size="1.27" layer="25" rot="R270">&gt;NAME</text>
 </package>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
