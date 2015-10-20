@@ -449,7 +449,6 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <wire x1="-5.8" y1="-3.92" x2="5.8" y2="-3.92" width="0.127" layer="21"/>
 <wire x1="5.8" y1="-3.92" x2="5.8" y2="4.58" width="0.127" layer="21"/>
 <wire x1="5.8" y1="4.58" x2="-5.8" y2="4.58" width="0.127" layer="21"/>
-<pad name="4" x="-2.54" y="2.54" drill="1.016" shape="long" rot="R270"/>
 <circle x="-3.81" y="-2.54" radius="0.508" width="0.127" layer="21"/>
 </package>
 <package name="RJ45-8">
@@ -15213,6 +15212,8 @@ ADDR = 3V3: 0x49</text>
 <pinref part="JP13" gate="A" pin="5"/>
 <wire x1="190.5" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
 <label x="172.72" y="73.66" size="1.778" layer="95"/>
+<junction x="180.34" y="68.58"/>
+<junction x="180.34" y="66.04"/>
 </segment>
 </net>
 </nets>
