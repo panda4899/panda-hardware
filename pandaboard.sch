@@ -13972,7 +13972,7 @@ high speed (Philips)</description>
 <part name="JP17" library="jumper" deviceset="JP1Q" device="" value="J3V3"/>
 <part name="IC1" library="panda" deviceset="MCP23008" device="/P"/>
 <part name="JP22" library="pinhead" deviceset="PINHD-2X3" device="" value="JCLOSET"/>
-<part name="JP13" library="pinhead" deviceset="PINHD-2X4" device=""/>
+<part name="JP13" library="pinhead" deviceset="PINHD-2X4" device="" value="JADC"/>
 </parts>
 <sheets>
 <sheet>
