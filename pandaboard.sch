@@ -13947,7 +13947,7 @@ high speed (Philips)</description>
 <part name="JP14" library="SparkFun-Connectors" deviceset="M05" device="PTH" value="SOUND"/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD" value="1206L110"/>
 <part name="D1" library="diode" deviceset="1N4148" device="DO35-10" value="1N5817"/>
-<part name="U3" library="panda" deviceset="EM7180SFP" device="SMD"/>
+<part name="U3" library="panda" deviceset="EM7180SFP" device="SMD" value="EM7180SFP"/>
 <part name="U8" library="panda" deviceset="MC74VHC1GT125" device=""/>
 <part name="JP26" library="SparkFun-Connectors" deviceset="M03" device="PTH" value="NEOP"/>
 <part name="JP24" library="pinhead" deviceset="PINHD-2X4" device="" value="BLUTH"/>
