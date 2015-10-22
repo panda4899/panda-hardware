@@ -14765,6 +14765,11 @@ ADDR = 3V3: 0x49</text>
 <wire x1="25.4" y1="81.28" x2="15.24" y2="81.28" width="0.1524" layer="91"/>
 <label x="15.24" y="81.28" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP8" gate="A" pin="5"/>
+<wire x1="96.52" y1="78.74" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
+<label x="86.36" y="78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="A0" class="0">
 <segment>
@@ -14873,9 +14878,14 @@ ADDR = 3V3: 0x49</text>
 <label x="241.3" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="A" pin="5"/>
-<wire x1="96.52" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
-<label x="86.36" y="43.18" size="1.778" layer="95"/>
+<pinref part="JP6" gate="A" pin="5"/>
+<wire x1="96.52" y1="111.76" x2="86.36" y2="111.76" width="0.1524" layer="91"/>
+<label x="86.36" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="5"/>
+<wire x1="25.4" y1="111.76" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
+<label x="15.24" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -15013,14 +15023,9 @@ ADDR = 3V3: 0x49</text>
 <pinref part="IC1" gate="G$1" pin="GP3"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="HOST_INT"/>
-<wire x1="248.92" y1="187.96" x2="259.08" y2="187.96" width="0.1524" layer="91"/>
-<label x="254" y="187.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP8" gate="A" pin="5"/>
-<wire x1="96.52" y1="78.74" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
-<label x="86.36" y="78.74" size="1.778" layer="95"/>
+<pinref part="JP9" gate="A" pin="5"/>
+<wire x1="96.52" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
+<label x="86.36" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IRQ2" class="0">
@@ -15041,11 +15046,6 @@ ADDR = 3V3: 0x49</text>
 <label x="195.58" y="180.34" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="GP4"/>
 </segment>
-<segment>
-<pinref part="JP2" gate="A" pin="5"/>
-<wire x1="25.4" y1="111.76" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
-<label x="15.24" y="111.76" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="IRQ3" class="0">
 <segment>
@@ -15058,17 +15058,17 @@ ADDR = 3V3: 0x49</text>
 <wire x1="25.4" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
 <label x="15.24" y="17.78" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="HOST_INT"/>
+<wire x1="248.92" y1="187.96" x2="259.08" y2="187.96" width="0.1524" layer="91"/>
+<label x="254" y="187.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="IRQ4" class="0">
 <segment>
 <wire x1="187.96" y1="172.72" x2="200.66" y2="172.72" width="0.1524" layer="91"/>
 <label x="195.58" y="172.72" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="GP7"/>
-</segment>
-<segment>
-<pinref part="JP6" gate="A" pin="5"/>
-<wire x1="96.52" y1="111.76" x2="86.36" y2="111.76" width="0.1524" layer="91"/>
-<label x="86.36" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP14" gate="G$1" pin="3"/>
