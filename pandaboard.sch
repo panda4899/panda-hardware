@@ -15046,6 +15046,11 @@ ADDR = 3V3: 0x49</text>
 <label x="195.58" y="180.34" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="GP4"/>
 </segment>
+<segment>
+<pinref part="JP14" gate="G$1" pin="3"/>
+<wire x1="223.52" y1="167.64" x2="213.36" y2="167.64" width="0.1524" layer="91"/>
+<label x="213.36" y="167.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="IRQ3" class="0">
 <segment>
@@ -15069,11 +15074,6 @@ ADDR = 3V3: 0x49</text>
 <wire x1="187.96" y1="172.72" x2="200.66" y2="172.72" width="0.1524" layer="91"/>
 <label x="195.58" y="172.72" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="GP7"/>
-</segment>
-<segment>
-<pinref part="JP14" gate="G$1" pin="3"/>
-<wire x1="223.52" y1="167.64" x2="213.36" y2="167.64" width="0.1524" layer="91"/>
-<label x="213.36" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
