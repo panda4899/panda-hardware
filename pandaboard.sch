@@ -13894,12 +13894,6 @@ high speed (Philips)</description>
 <part name="TP6" library="testpad" deviceset="TP" device="PAD1-13">
 <attribute name="TP_SIGNAL_NAME" value="LSCL"/>
 </part>
-<part name="TP3" library="testpad" deviceset="TP" device="PAD1-13">
-<attribute name="TP_SIGNAL_NAME" value="A"/>
-</part>
-<part name="TP4" library="testpad" deviceset="TP" device="PAD1-13">
-<attribute name="TP_SIGNAL_NAME" value="B"/>
-</part>
 <part name="LED2" library="eagle-ltspice" deviceset="LED_E" device="" value="5VLED"/>
 <part name="FRAME2" library="frames" deviceset="FRAME_A_L" device="" value=" "/>
 <part name="FRAME3" library="frames" deviceset="FRAME_A_L" device="" value=" "/>
@@ -14036,8 +14030,6 @@ ADDR = 3V3: 0x49</text>
 <instance part="S2" gate="G$1" x="73.66" y="109.22"/>
 <instance part="TP2" gate="G$1" x="66.04" y="198.12"/>
 <instance part="TP1" gate="G$1" x="63.5" y="203.2"/>
-<instance part="TP3" gate="G$1" x="86.36" y="185.42"/>
-<instance part="TP4" gate="G$1" x="96.52" y="177.8" rot="R180"/>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="GND10" gate="1" x="172.72" y="152.4"/>
 <instance part="GND11" gate="1" x="154.94" y="162.56"/>
@@ -14692,12 +14684,9 @@ ADDR = 3V3: 0x49</text>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="177.8" x2="91.44" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="180.34" x2="96.52" y2="180.34" width="0.1524" layer="91"/>
 <label x="99.06" y="180.34" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="B"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
-<wire x1="96.52" y1="180.34" x2="106.68" y2="180.34" width="0.1524" layer="91"/>
-<junction x="96.52" y="180.34"/>
+<wire x1="91.44" y1="180.34" x2="106.68" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP5" gate="G$1" pin="GP17"/>
@@ -14708,12 +14697,9 @@ ADDR = 3V3: 0x49</text>
 <net name="A" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="182.88" x2="86.36" y2="182.88" width="0.1524" layer="91"/>
 <label x="99.06" y="182.88" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="A"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
-<wire x1="86.36" y1="182.88" x2="106.68" y2="182.88" width="0.1524" layer="91"/>
-<junction x="86.36" y="182.88"/>
+<wire x1="83.82" y1="182.88" x2="106.68" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP5" gate="G$1" pin="GP4"/>
