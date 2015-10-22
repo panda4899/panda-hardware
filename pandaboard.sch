@@ -14978,11 +14978,6 @@ ADDR = 3V3: 0x49</text>
 <wire x1="149.86" y1="78.74" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
 <label x="139.7" y="78.74" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="JP3" gate="A" pin="5"/>
-<wire x1="25.4" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
-<label x="15.24" y="43.18" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PI5V" class="0">
 <segment>
@@ -15038,6 +15033,11 @@ ADDR = 3V3: 0x49</text>
 <pinref part="JP7" gate="A" pin="5"/>
 <wire x1="96.52" y1="17.78" x2="86.36" y2="17.78" width="0.1524" layer="91"/>
 <label x="86.36" y="17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="5"/>
+<wire x1="25.4" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
+<label x="15.24" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IRQ1" class="0">
