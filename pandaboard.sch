@@ -13862,7 +13862,7 @@ high speed (Philips)</description>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="U4" library="panda" deviceset="P82B715" device=""/>
-<part name="U1" library="panda" deviceset="74HC4052" device="DIP"/>
+<part name="U1" library="panda" deviceset="74HC4052" device="DIP" value="74HC4052"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
