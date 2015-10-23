@@ -13888,12 +13888,6 @@ high speed (Philips)</description>
 <part name="TP1" library="testpad" deviceset="TP" device="PAD1-13">
 <attribute name="TP_SIGNAL_NAME" value="SCL"/>
 </part>
-<part name="TP3" library="testpad" deviceset="TP" device="PAD1-13">
-<attribute name="TP_SIGNAL_NAME" value="LSDA"/>
-</part>
-<part name="TP4" library="testpad" deviceset="TP" device="PAD1-13">
-<attribute name="TP_SIGNAL_NAME" value="LSCL"/>
-</part>
 <part name="LED2" library="eagle-ltspice" deviceset="LED_E" device="" value="5VLED"/>
 <part name="FRAME2" library="frames" deviceset="FRAME_A_L" device="" value=" "/>
 <part name="FRAME3" library="frames" deviceset="FRAME_A_L" device="" value=" "/>
@@ -15310,8 +15304,6 @@ Sensor System Board</text>
 <instance part="R12" gate="G$1" x="66.04" y="124.46" rot="R90"/>
 <instance part="U4" gate="G$1" x="25.4" y="109.22"/>
 <instance part="JP18" gate="JP1" x="83.82" y="114.3"/>
-<instance part="TP3" gate="G$1" x="58.42" y="116.84"/>
-<instance part="TP4" gate="G$1" x="63.5" y="109.22" rot="R180"/>
 <instance part="GND31" gate="1" x="50.8" y="185.42"/>
 <instance part="JP25" gate="A" x="238.76" y="167.64"/>
 <instance part="JP17" gate="A" x="73.66" y="200.66" rot="R90"/>
@@ -15773,30 +15765,24 @@ Sensor System Board</text>
 <wire x1="53.34" y1="114.3" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
 <label x="48.26" y="116.84" size="1.778" layer="95"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="114.3" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="114.3" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="114.3" x2="55.88" y2="119.38" width="0.1524" layer="91"/>
 <junction x="55.88" y="114.3"/>
 <pinref part="U4" gate="G$1" pin="LX"/>
 <pinref part="JP18" gate="JP1" pin="4"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
-<junction x="58.42" y="114.3"/>
 </segment>
 </net>
 <net name="LSCL" class="0">
 <segment>
 <wire x1="48.26" y1="114.3" x2="48.26" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="111.76" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="111.76" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
 <label x="48.26" y="109.22" size="1.778" layer="95"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="111.76" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="111.76" x2="76.2" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="111.76" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
 <junction x="66.04" y="111.76"/>
 <pinref part="U4" gate="G$1" pin="LY"/>
 <pinref part="JP18" gate="JP1" pin="5"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
-<junction x="63.5" y="111.76"/>
 </segment>
 </net>
 <net name="3SDA" class="0">
