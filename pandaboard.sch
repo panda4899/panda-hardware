@@ -13867,7 +13867,7 @@ high speed (Philips)</description>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="IC2" library="v-reg" deviceset="LP2950?*" device="ACZ" technology="-3.3"/>
+<part name="U10" library="v-reg" deviceset="LP2950?*" device="ACZ" technology="-3.3"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="0.1µF"/>
@@ -13958,7 +13958,7 @@ high speed (Philips)</description>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="JP25" library="pinhead" deviceset="PINHD-2X4" device="" value="BLUTH"/>
 <part name="JP17" library="jumper" deviceset="JP1Q" device="" value="J3V3"/>
-<part name="IC1" library="panda" deviceset="MCP23008" device="/P"/>
+<part name="U9" library="panda" deviceset="MCP23008" device="/P"/>
 <part name="JP22" library="pinhead" deviceset="PINHD-2X3" device="" value="JCLOSET"/>
 <part name="JP13" library="pinhead" deviceset="PINHD-2X4" device="" value="JADC"/>
 </parts>
@@ -14062,7 +14062,7 @@ ADDR = 3V3: 0x49</text>
 <instance part="JP15" gate="G$1" x="256.54" y="170.18" rot="R180"/>
 <instance part="JP14" gate="G$1" x="231.14" y="167.64" rot="R180"/>
 <instance part="U3" gate="G$1" x="236.22" y="185.42"/>
-<instance part="IC1" gate="G$1" x="172.72" y="180.34"/>
+<instance part="U9" gate="G$1" x="172.72" y="180.34"/>
 <instance part="JP13" gate="A" x="193.04" y="68.58"/>
 </instances>
 <busses>
@@ -14095,12 +14095,12 @@ ADDR = 3V3: 0x49</text>
 <wire x1="172.72" y1="200.66" x2="172.72" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="203.2" x2="180.34" y2="203.2" width="0.1524" layer="91"/>
 <label x="175.26" y="203.2" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="VCC"/>
+<pinref part="U9" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="190.5" x2="149.86" y2="190.5" width="0.1524" layer="91"/>
 <label x="149.86" y="190.5" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="/RST"/>
+<pinref part="U9" gate="G$1" pin="/RST"/>
 </segment>
 <segment>
 <pinref part="JP0" gate="A" pin="2"/>
@@ -14273,7 +14273,7 @@ ADDR = 3V3: 0x49</text>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="172.72" y1="154.94" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="U9" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -14285,9 +14285,9 @@ ADDR = 3V3: 0x49</text>
 <junction x="154.94" y="170.18"/>
 <wire x1="157.48" y1="167.64" x2="154.94" y2="167.64" width="0.1524" layer="91"/>
 <junction x="154.94" y="167.64"/>
-<pinref part="IC1" gate="G$1" pin="A0"/>
-<pinref part="IC1" gate="G$1" pin="A1"/>
-<pinref part="IC1" gate="G$1" pin="A2"/>
+<pinref part="U9" gate="G$1" pin="A0"/>
+<pinref part="U9" gate="G$1" pin="A1"/>
+<pinref part="U9" gate="G$1" pin="A2"/>
 </segment>
 <segment>
 <pinref part="JP0" gate="A" pin="3"/>
@@ -14496,7 +14496,7 @@ ADDR = 3V3: 0x49</text>
 <segment>
 <wire x1="157.48" y1="177.8" x2="149.86" y2="177.8" width="0.1524" layer="91"/>
 <label x="149.86" y="177.8" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="SCL"/>
+<pinref part="U9" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
 <pinref part="JP0" gate="A" pin="6"/>
@@ -14553,7 +14553,7 @@ ADDR = 3V3: 0x49</text>
 <segment>
 <wire x1="157.48" y1="180.34" x2="149.86" y2="180.34" width="0.1524" layer="91"/>
 <label x="149.86" y="180.34" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="SDA"/>
+<pinref part="U9" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
 <pinref part="JP0" gate="A" pin="8"/>
@@ -14733,7 +14733,7 @@ ADDR = 3V3: 0x49</text>
 <segment>
 <wire x1="187.96" y1="190.5" x2="200.66" y2="190.5" width="0.1524" layer="91"/>
 <label x="195.58" y="190.5" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="GP0"/>
+<pinref part="U9" gate="G$1" pin="GP0"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
@@ -14850,7 +14850,7 @@ ADDR = 3V3: 0x49</text>
 <segment>
 <wire x1="187.96" y1="187.96" x2="200.66" y2="187.96" width="0.1524" layer="91"/>
 <label x="193.04" y="187.96" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="GP1"/>
+<pinref part="U9" gate="G$1" pin="GP1"/>
 </segment>
 <segment>
 <pinref part="JP15" gate="G$1" pin="3"/>
@@ -14951,7 +14951,7 @@ ADDR = 3V3: 0x49</text>
 <segment>
 <wire x1="187.96" y1="185.42" x2="200.66" y2="185.42" width="0.1524" layer="91"/>
 <label x="195.58" y="185.42" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="GP2"/>
+<pinref part="U9" gate="G$1" pin="GP2"/>
 </segment>
 <segment>
 <pinref part="JP10" gate="G$1" pin="3"/>
@@ -14988,14 +14988,14 @@ ADDR = 3V3: 0x49</text>
 <segment>
 <wire x1="157.48" y1="185.42" x2="149.86" y2="185.42" width="0.1524" layer="91"/>
 <label x="149.86" y="185.42" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="INT"/>
+<pinref part="U9" gate="G$1" pin="INT"/>
 </segment>
 </net>
 <net name="IRQ0" class="0">
 <segment>
 <wire x1="187.96" y1="182.88" x2="200.66" y2="182.88" width="0.1524" layer="91"/>
 <label x="195.58" y="182.88" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="GP3"/>
+<pinref part="U9" gate="G$1" pin="GP3"/>
 </segment>
 <segment>
 <pinref part="JP8" gate="A" pin="5"/>
@@ -15007,7 +15007,7 @@ ADDR = 3V3: 0x49</text>
 <segment>
 <wire x1="187.96" y1="177.8" x2="200.66" y2="177.8" width="0.1524" layer="91"/>
 <label x="195.58" y="177.8" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="GP5"/>
+<pinref part="U9" gate="G$1" pin="GP5"/>
 </segment>
 <segment>
 <pinref part="JP9" gate="A" pin="5"/>
@@ -15024,7 +15024,7 @@ ADDR = 3V3: 0x49</text>
 <segment>
 <wire x1="187.96" y1="180.34" x2="200.66" y2="180.34" width="0.1524" layer="91"/>
 <label x="195.58" y="180.34" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="GP4"/>
+<pinref part="U9" gate="G$1" pin="GP4"/>
 </segment>
 <segment>
 <pinref part="JP14" gate="G$1" pin="3"/>
@@ -15036,7 +15036,7 @@ ADDR = 3V3: 0x49</text>
 <segment>
 <wire x1="187.96" y1="175.26" x2="200.66" y2="175.26" width="0.1524" layer="91"/>
 <label x="195.58" y="175.26" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="GP6"/>
+<pinref part="U9" gate="G$1" pin="GP6"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="5"/>
@@ -15053,7 +15053,7 @@ ADDR = 3V3: 0x49</text>
 <segment>
 <wire x1="187.96" y1="172.72" x2="200.66" y2="172.72" width="0.1524" layer="91"/>
 <label x="195.58" y="172.72" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="GP7"/>
+<pinref part="U9" gate="G$1" pin="GP7"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -15264,7 +15264,7 @@ Sensor System Board</text>
 <instance part="C14" gate="G$1" x="147.32" y="182.88"/>
 <instance part="C13" gate="G$1" x="132.08" y="182.88"/>
 <instance part="C15" gate="G$1" x="180.34" y="182.88"/>
-<instance part="IC2" gate="G$1" x="40.64" y="200.66"/>
+<instance part="U10" gate="G$1" x="40.64" y="200.66"/>
 <instance part="GND16" gate="1" x="27.94" y="187.96"/>
 <instance part="GND18" gate="1" x="40.64" y="187.96"/>
 <instance part="C12" gate="G$1" x="50.8" y="198.12"/>
@@ -15345,7 +15345,7 @@ Sensor System Board</text>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="U10" gate="G$1" pin="GND"/>
 <wire x1="40.64" y1="190.5" x2="40.64" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -15595,7 +15595,7 @@ Sensor System Board</text>
 </segment>
 <segment>
 <label x="12.7" y="200.66" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="IN"/>
+<pinref part="U10" gate="G$1" pin="IN"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="200.66" x2="27.94" y2="200.66" width="0.1524" layer="91"/>
 <junction x="27.94" y="200.66"/>
@@ -15865,7 +15865,7 @@ Sensor System Board</text>
 </net>
 <net name="3V3O" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUT"/>
+<pinref part="U10" gate="G$1" pin="OUT"/>
 <wire x1="48.26" y1="200.66" x2="50.8" y2="200.66" width="0.1524" layer="91"/>
 <label x="63.5" y="182.88" size="1.778" layer="95" rot="R90"/>
 <junction x="50.8" y="200.66"/>
