@@ -337,7 +337,7 @@ Positive</text>
 <text x="39.116" y="89.154" size="1.4224" layer="21" ratio="20">UCCS Senior Design Fall 2015</text>
 <text x="39.116" y="85.09" size="1.4224" layer="21" ratio="20">Paul Schow, Anton Pancheshnyy,
 Noelle Smith, David Kalina</text>
-<text x="-4.064" y="82.042" size="1.27" layer="21" ratio="20" rot="R270">commit dc3d6f6845d6744b285e4d85b935cb0054889663</text>
+<text x="-4.064" y="82.042" size="1.27" layer="21" ratio="20" rot="R270">commit 99619098a111c318530b6e27fa8d0f816f5f322d</text>
 <text x="13.97" y="90.932" size="0.6096" layer="21" ratio="20" rot="R180">SCLK</text>
 <text x="16.764" y="84.074" size="0.6096" layer="21" ratio="20" rot="R180">SPIEN0</text>
 <text x="19.304" y="84.836" size="0.6096" layer="21" ratio="20" rot="R180">SPIINT0</text>
@@ -15709,6 +15709,7 @@ design rules under a new name.</description>
 <approved hash="8,1,51334729d454b1c1"/>
 <approved hash="8,1,424b6ec6fbfdfdf0"/>
 <approved hash="3,1,79c31db31c437833"/>
+<approved hash="3,1,97fc0ebe84a08849"/>
 <approved hash="3,1,f78b53fb528ef6fe"/>
 </errors>
 </board>
