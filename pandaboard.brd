@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -26,16 +26,16 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="10" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -112,7 +112,7 @@
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
 <layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
@@ -167,8 +167,8 @@
 <dimension x1="17.78" y1="72.39" x2="15.748" y2="-10.922" x3="-61.722" y3="30.734" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="17.78" y1="72.39" x2="17.78" y2="-35.052" x3="17.78" y3="18.669" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="85.09" y1="85.09" x2="8.89" y2="85.09" x3="46.99" y3="-83.82" textsize="1.778" layer="47" unit="inch" visible="yes"/>
-<text x="14.224" y="77.724" size="1.778" layer="21" ratio="20">SDA</text>
-<text x="11.176" y="80.264" size="1.778" layer="21" ratio="20">SCL</text>
+<text x="15.24" y="78.994" size="1.016" layer="21" ratio="20">SDA</text>
+<text x="11.43" y="78.994" size="1.016" layer="21" ratio="20">SCL</text>
 <text x="40.386" y="26.924" size="0.6096" layer="21" ratio="20" rot="R90">3.3v</text>
 <text x="40.386" y="29.718" size="0.6096" layer="21" ratio="20" rot="R90">GND</text>
 <text x="40.386" y="32.258" size="0.6096" layer="21" ratio="20" rot="R90">SCL</text>
@@ -337,7 +337,7 @@ Positive</text>
 <text x="39.116" y="89.154" size="1.4224" layer="21" ratio="20">UCCS Senior Design Fall 2015</text>
 <text x="39.116" y="85.09" size="1.4224" layer="21" ratio="20">Paul Schow, Anton Pancheshnyy,
 Noelle Smith, David Kalina</text>
-<text x="-4.064" y="82.042" size="1.27" layer="21" ratio="20" rot="R270">commit 070104b518ed828b97990687c8a8847867519342</text>
+<text x="-4.064" y="82.042" size="1.27" layer="21" ratio="20" rot="R270">commit dc3d6f6845d6744b285e4d85b935cb0054889663</text>
 <text x="13.97" y="90.932" size="0.6096" layer="21" ratio="20" rot="R180">SCLK</text>
 <text x="16.764" y="84.074" size="0.6096" layer="21" ratio="20" rot="R180">SPIEN0</text>
 <text x="19.304" y="84.836" size="0.6096" layer="21" ratio="20" rot="R180">SPIINT0</text>
@@ -13576,9 +13576,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="54.864" y="58.674" size="1.27" layer="25" ratio="20"/>
 <attribute name="VALUE" x="53.34" y="54.61" size="1.27" layer="27"/>
 </element>
-<element name="TP2" library="testpad" package="P1-13" value="TPPAD1-13" x="12.7" y="78.74" smashed="yes" rot="R180">
-<attribute name="TP_SIGNAL_NAME" value="SDA" x="13.97" y="81.28" size="1" layer="37" rot="R180"/>
-<attribute name="VALUE" x="12.7" y="78.74" size="0.0254" layer="27" ratio="20" rot="R180"/>
+<element name="TP2" library="testpad" package="P1-13" value="TPPAD1-13" x="12.7" y="81.28" smashed="yes" rot="R180">
+<attribute name="TP_SIGNAL_NAME" value="SDA" x="13.97" y="83.82" size="1" layer="37" rot="R180"/>
+<attribute name="VALUE" x="12.7" y="81.28" size="0.0254" layer="27" ratio="20" rot="R180"/>
 </element>
 <element name="TP1" library="testpad" package="P1-13" value="TPPAD1-13" x="16.51" y="81.28" smashed="yes" rot="R180">
 <attribute name="TP_SIGNAL_NAME" value="SCL" x="17.78" y="83.82" size="1" layer="37" rot="R180"/>
@@ -14549,7 +14549,7 @@ design rules under a new name.</description>
 <wire x1="31.75" y1="36.83" x2="31.75" y2="20.32" width="0.254" layer="16"/>
 <wire x1="31.75" y1="20.32" x2="33.02" y2="19.05" width="0.254" layer="16"/>
 <wire x1="33.02" y1="19.05" x2="35.56" y2="19.05" width="0.254" layer="16"/>
-<wire x1="12.7" y1="78.74" x2="12.7" y2="80.01" width="0.254" layer="16"/>
+<wire x1="12.7" y1="81.28" x2="12.7" y2="80.01" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL">
 <contactref element="U1" pad="3"/>
@@ -15508,8 +15508,10 @@ design rules under a new name.</description>
 <wire x1="3.81" y1="62.23" x2="2.54" y2="63.5" width="0.254" layer="16"/>
 <wire x1="2.54" y1="63.5" x2="2.54" y2="81.28" width="0.254" layer="16"/>
 <wire x1="2.54" y1="81.28" x2="3.81" y2="82.55" width="0.254" layer="16"/>
-<wire x1="3.81" y1="82.55" x2="13.97" y2="82.55" width="0.254" layer="16"/>
-<wire x1="13.97" y1="82.55" x2="17.78" y2="86.36" width="0.254" layer="16"/>
+<wire x1="3.81" y1="82.55" x2="5.08" y2="82.55" width="0.254" layer="16"/>
+<wire x1="5.08" y1="82.55" x2="6.35" y2="83.82" width="0.254" layer="16"/>
+<wire x1="6.35" y1="83.82" x2="13.97" y2="83.82" width="0.254" layer="16"/>
+<wire x1="13.97" y1="83.82" x2="17.78" y2="86.36" width="0.254" layer="16"/>
 <via x="3.81" y="62.23" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="3INT">
