@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -557,19 +557,19 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 </package>
 <package name="R-78E">
 <description>&lt;b&gt;TO 200 vertical&lt;/b&gt;</description>
-<pad name="1" x="-2.54" y="2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-2.54" y="-1.27" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-1.27" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-1.27" drill="1.016" shape="long" rot="R90"/>
 <text x="-5.68" y="4.8348" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.78" y="-5.44" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-3.175" y="-0.635" size="1.27" layer="51" ratio="10">1</text>
-<text x="-0.635" y="-0.635" size="1.27" layer="51" ratio="10">2</text>
-<text x="1.905" y="-0.635" size="1.27" layer="51" ratio="10">3</text>
+<text x="-3.175" y="0.635" size="1.27" layer="51" ratio="10">1</text>
+<text x="-0.635" y="0.635" size="1.27" layer="51" ratio="10">2</text>
+<text x="1.905" y="0.635" size="1.27" layer="51" ratio="10">3</text>
 <wire x1="-5.8" y1="4.58" x2="-5.8" y2="-3.92" width="0.127" layer="21"/>
 <wire x1="-5.8" y1="-3.92" x2="5.8" y2="-3.92" width="0.127" layer="21"/>
 <wire x1="5.8" y1="-3.92" x2="5.8" y2="4.58" width="0.127" layer="21"/>
 <wire x1="5.8" y1="4.58" x2="-5.8" y2="4.58" width="0.127" layer="21"/>
-<circle x="-3.81" y="-2.54" radius="0.508" width="0.127" layer="21"/>
+<circle x="-4.572" y="-2.794" radius="0.508" width="0.127" layer="21"/>
 </package>
 <package name="RJ45-8">
 <wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.2032" layer="21"/>
