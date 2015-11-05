@@ -167,8 +167,8 @@
 <dimension x1="17.78" y1="72.39" x2="15.748" y2="-10.922" x3="-61.722" y3="30.734" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="17.78" y1="72.39" x2="17.78" y2="-35.052" x3="17.78" y3="18.669" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="85.09" y1="85.09" x2="8.89" y2="85.09" x3="46.99" y3="-83.82" textsize="1.778" layer="47" unit="inch" visible="yes"/>
-<text x="15.24" y="78.994" size="1.016" layer="21" ratio="20">SDA</text>
-<text x="11.43" y="78.994" size="1.016" layer="21" ratio="20">SCL</text>
+<text x="11.43" y="78.994" size="1.016" layer="21" ratio="20">SDA</text>
+<text x="15.24" y="78.994" size="1.016" layer="21" ratio="20">SCL</text>
 <text x="40.386" y="26.924" size="0.6096" layer="21" ratio="20" rot="R90">3.3v</text>
 <text x="40.386" y="29.718" size="0.6096" layer="21" ratio="20" rot="R90">GND</text>
 <text x="40.386" y="32.258" size="0.6096" layer="21" ratio="20" rot="R90">SCL</text>
