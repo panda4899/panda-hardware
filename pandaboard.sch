@@ -13864,7 +13864,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="JP17" library="jumper" deviceset="JP1Q" device="" value="J3V3"/>
 <part name="U9" library="panda" deviceset="MCP23008" device="/P"/>
 <part name="JP22" library="pinhead" deviceset="PINHD-2X3" device="" value="JCLOSET"/>
-<part name="JP13" library="pinhead" deviceset="PINHD-2X4" device="" value="JADC"/>
+<part name="JP27" library="pinhead" deviceset="PINHD-2X3" device="" value="JADC"/>
 </parts>
 <sheets>
 <sheet>
@@ -13967,7 +13967,7 @@ ADDR = 3V3: 0x49</text>
 <instance part="JP14" gate="G$1" x="231.14" y="167.64" rot="R180"/>
 <instance part="U3" gate="G$1" x="236.22" y="185.42"/>
 <instance part="U9" gate="G$1" x="172.72" y="180.34"/>
-<instance part="JP13" gate="A" x="193.04" y="68.58"/>
+<instance part="JP27" gate="A" x="193.04" y="71.12"/>
 </instances>
 <busses>
 </busses>
@@ -14084,9 +14084,9 @@ ADDR = 3V3: 0x49</text>
 <label x="213.36" y="198.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP13" gate="A" pin="6"/>
 <wire x1="198.12" y1="68.58" x2="210.82" y2="68.58" width="0.1524" layer="91"/>
 <label x="203.2" y="68.58" size="1.778" layer="95"/>
+<pinref part="JP27" gate="A" pin="6"/>
 </segment>
 <segment>
 <pinref part="JP15" gate="G$1" pin="1"/>
@@ -14385,11 +14385,6 @@ ADDR = 3V3: 0x49</text>
 <wire x1="248.92" y1="193.04" x2="259.08" y2="193.04" width="0.1524" layer="91"/>
 <label x="254" y="193.04" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="JP13" gate="A" pin="8"/>
-<wire x1="198.12" y1="66.04" x2="210.82" y2="66.04" width="0.1524" layer="91"/>
-<label x="203.2" y="66.04" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MSCL" class="0">
 <segment>
@@ -14525,7 +14520,7 @@ ADDR = 3V3: 0x49</text>
 <pinref part="JP11" gate="G$1" pin="4"/>
 <wire x1="182.88" y1="76.2" x2="182.88" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="JP13" gate="A" pin="3"/>
+<pinref part="JP27" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -14551,7 +14546,7 @@ ADDR = 3V3: 0x49</text>
 <pinref part="JP11" gate="G$1" pin="3"/>
 <wire x1="185.42" y1="78.74" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="73.66" x2="190.5" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="JP13" gate="A" pin="1"/>
+<pinref part="JP27" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="CSDA" class="0">
@@ -14561,9 +14556,9 @@ ADDR = 3V3: 0x49</text>
 <pinref part="U1" gate="G$1" pin="X1"/>
 </segment>
 <segment>
-<pinref part="JP13" gate="A" pin="4"/>
 <wire x1="198.12" y1="71.12" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
 <label x="203.2" y="71.12" size="1.778" layer="95"/>
+<pinref part="JP27" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="CSCL" class="0">
@@ -14573,9 +14568,9 @@ ADDR = 3V3: 0x49</text>
 <wire x1="127" y1="177.8" x2="139.7" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP13" gate="A" pin="2"/>
 <wire x1="198.12" y1="73.66" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
 <label x="203.2" y="73.66" size="1.778" layer="95"/>
+<pinref part="JP27" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="B" class="0">
@@ -15091,14 +15086,9 @@ ADDR = 3V3: 0x49</text>
 <pinref part="JP11" gate="G$1" pin="5"/>
 <wire x1="170.18" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="73.66" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="JP13" gate="A" pin="7"/>
-<wire x1="180.34" y1="68.58" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="66.04" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="JP13" gate="A" pin="5"/>
 <wire x1="190.5" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
 <label x="172.72" y="73.66" size="1.778" layer="95"/>
-<junction x="180.34" y="68.58"/>
-<junction x="180.34" y="66.04"/>
+<pinref part="JP27" gate="A" pin="5"/>
 </segment>
 </net>
 </nets>
