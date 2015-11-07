@@ -13827,8 +13827,8 @@ Source: http://www.bourns.com/data/global/PDFs/MFMSMF.pdf</description>
 <part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="0.1µF"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X5" device="" value="LIGHT"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="0.1µF"/>
-<part name="JP11" library="SparkFun-Connectors" deviceset="M10" device="LOCK" value="ADC"/>
-<part name="JP10" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
+<part name="JP11" library="SparkFun-Connectors" deviceset="M10" device="SILK_FEMALE_PTH" value="ADC"/>
+<part name="JP10" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="S2" library="panda" deviceset="VOC" device=""/>
