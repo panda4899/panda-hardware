@@ -13869,7 +13869,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <sheets>
 <sheet>
 <plain>
-<text x="264.16" y="7.62" size="2.54" layer="94">v2.5</text>
+<text x="264.16" y="7.62" size="2.54" layer="94">v2.6</text>
 <wire x1="76.2" y1="157.48" x2="144.78" y2="157.48" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="144.78" y1="157.48" x2="144.78" y2="208.28" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="76.2" y1="208.28" x2="76.2" y2="157.48" width="0.1524" layer="94" style="shortdash"/>
@@ -15172,7 +15172,7 @@ Sensor System Board</text>
 <instance part="LED1" gate="G$1" x="25.4" y="154.94" rot="R270"/>
 <instance part="JP16" gate="A" x="50.8" y="154.94" rot="R90"/>
 <instance part="JP21" gate="G$1" x="114.3" y="193.04" rot="R270"/>
-<instance part="F1" gate="G$1" x="121.92" y="137.16"/>
+<instance part="F1" gate="G$1" x="124.46" y="137.16"/>
 <instance part="U8" gate="G$1" x="231.14" y="137.16"/>
 <instance part="JP26" gate="G$1" x="264.16" y="129.54" rot="R180"/>
 <instance part="JP24" gate="A" x="238.76" y="190.5"/>
@@ -15501,7 +15501,7 @@ Sensor System Board</text>
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="137.16" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="137.16" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
 <label x="111.76" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -15567,7 +15567,7 @@ Sensor System Board</text>
 </net>
 <net name="PI5V" class="0">
 <segment>
-<wire x1="129.54" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
 <label x="149.86" y="137.16" size="1.778" layer="95"/>
 <pinref part="F1" gate="G$1" pin="2"/>
 </segment>
