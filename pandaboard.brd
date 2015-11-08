@@ -563,6 +563,7 @@ Noelle Smith, David Kalina</text>
 <pad name="5" x="3.81" y="3.81" drill="1.016" diameter="1.8796" rot="R90"/>
 <text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<circle x="-3.81" y="-1.524" radius="0.359209375" width="0.127" layer="21"/>
 </package>
 <package name="DIL16">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
