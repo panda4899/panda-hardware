@@ -13964,7 +13964,7 @@ ADDR = 3V3: 0x49</text>
 <instance part="JP2" gate="A" x="27.94" y="58.42"/>
 <instance part="C3" gate="G$1" x="50.8" y="63.5"/>
 <instance part="JP1" gate="A" x="27.94" y="86.36"/>
-<instance part="C1" gate="G$1" x="48.26" y="83.82"/>
+<instance part="C1" gate="G$1" x="53.34" y="88.9" rot="R180"/>
 <instance part="JP11" gate="G$1" x="160.02" y="66.04" rot="MR180"/>
 <instance part="JP10" gate="G$1" x="154.94" y="81.28" rot="R180"/>
 <instance part="R2" gate="G$1" x="63.5" y="53.34" rot="R90"/>
@@ -14048,14 +14048,6 @@ ADDR = 3V3: 0x49</text>
 <wire x1="48.26" y1="66.04" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="10"/>
-<wire x1="33.02" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
-<label x="38.1" y="81.28" size="1.778" layer="95"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="81.28" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="78.74" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="JP3" gate="A" pin="2"/>
 <wire x1="33.02" y1="33.02" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
 <label x="40.64" y="33.02" size="1.778" layer="95"/>
@@ -14117,6 +14109,14 @@ ADDR = 3V3: 0x49</text>
 <pinref part="JP15" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="172.72" x2="241.3" y2="172.72" width="0.1524" layer="91"/>
 <label x="241.3" y="172.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="33.02" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
+<label x="38.1" y="91.44" size="1.778" layer="95"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="91.44" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="93.98" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -14265,14 +14265,6 @@ ADDR = 3V3: 0x49</text>
 <label x="15.24" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="8"/>
-<wire x1="33.02" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
-<label x="38.1" y="83.82" size="1.778" layer="95"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="83.82" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="JP10" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="81.28" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
 <label x="139.7" y="81.28" size="1.778" layer="95"/>
@@ -14410,6 +14402,14 @@ ADDR = 3V3: 0x49</text>
 <wire x1="248.92" y1="193.04" x2="259.08" y2="193.04" width="0.1524" layer="91"/>
 <label x="254" y="193.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="33.02" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
+<label x="38.1" y="88.9" size="1.778" layer="95"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="88.9" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MSCL" class="0">
 <segment>
@@ -14490,11 +14490,6 @@ ADDR = 3V3: 0x49</text>
 <label x="40.64" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="4"/>
-<wire x1="33.02" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
-<label x="38.1" y="88.9" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP3" gate="A" pin="8"/>
 <wire x1="33.02" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
 <label x="40.64" y="25.4" size="1.778" layer="95"/>
@@ -14523,6 +14518,11 @@ ADDR = 3V3: 0x49</text>
 <pinref part="U3" gate="G$1" pin="SDAS"/>
 <wire x1="223.52" y1="193.04" x2="213.36" y2="193.04" width="0.1524" layer="91"/>
 <label x="213.36" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="33.02" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
+<label x="38.1" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -14660,11 +14660,6 @@ ADDR = 3V3: 0x49</text>
 <pinref part="U9" gate="G$1" pin="GP0"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="33.02" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
-<label x="38.1" y="91.44" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="5"/>
 <wire x1="25.4" y1="86.36" x2="15.24" y2="86.36" width="0.1524" layer="91"/>
 <label x="15.24" y="86.36" size="1.778" layer="95"/>
@@ -14673,6 +14668,11 @@ ADDR = 3V3: 0x49</text>
 <pinref part="JP7" gate="A" pin="5"/>
 <wire x1="96.52" y1="86.36" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
 <label x="86.36" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="10"/>
+<wire x1="33.02" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
+<label x="38.1" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
