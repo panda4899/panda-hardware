@@ -426,12 +426,12 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <pad name="A@2" x="-5.62" y="-5" drill="2" diameter="3.81"/>
 <pad name="H@2" x="7.38" y="0" drill="2" diameter="3.81"/>
 <pad name="B" x="5.38" y="5" drill="2" diameter="3.81" rot="R180"/>
-<text x="-11.35" y="-1" size="1.778" layer="21" font="vector">H</text>
-<text x="9.652" y="-1.016" size="1.778" layer="21">H</text>
-<text x="7.747" y="4.064" size="1.778" layer="21">B</text>
-<text x="7.874" y="-5.969" size="1.778" layer="21">B</text>
-<text x="-9.35" y="-6" size="1.778" layer="21">A</text>
-<text x="-9.35" y="4.27" size="1.778" layer="21">A</text>
+<text x="-11.35" y="-1" size="1.778" layer="21" font="vector" ratio="20">H</text>
+<text x="9.652" y="-1.016" size="1.778" layer="21" font="vector" ratio="20">H</text>
+<text x="7.747" y="4.064" size="1.778" layer="21" font="vector" ratio="20">B</text>
+<text x="7.874" y="-5.969" size="1.778" layer="21" font="vector" ratio="20">B</text>
+<text x="-9.35" y="-6" size="1.778" layer="21" font="vector" ratio="20">A</text>
+<text x="-9.35" y="4.27" size="1.778" layer="21" font="vector" ratio="20">A</text>
 <circle x="-0.12" y="0" radius="12" width="0.127" layer="21"/>
 <text x="-2.54" y="12.7" size="1.27" layer="25">&gt;Name</text>
 <text x="-2.54" y="-13.97" size="1.27" layer="27">&gt;Value</text>

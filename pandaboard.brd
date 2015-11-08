@@ -164,7 +164,7 @@
 <hole x="80.01" y="-41.91" drill="2.8"/>
 <hole x="80.01" y="91.44" drill="2.8"/>
 <dimension x1="17.78" y1="72.39" x2="17.78" y2="-35.052" x3="17.78" y3="18.669" textsize="1.778" layer="47" unit="inch"/>
-<text x="11.43" y="78.994" size="1.016" layer="21" ratio="20">SDA</text>
+<text x="11.43" y="78.994" size="1.016" layer="21" font="vector" ratio="20">SDA</text>
 <text x="15.24" y="78.994" size="1.016" layer="21" ratio="20">SCL</text>
 <text x="40.386" y="26.924" size="0.6096" layer="21" ratio="20" rot="R90">3.3v</text>
 <text x="40.386" y="29.718" size="0.6096" layer="21" ratio="20" rot="R90">GND</text>
@@ -398,7 +398,7 @@ Noelle Smith, David Kalina</text>
 <text x="34.29" y="-41.91" size="1.016" layer="21" ratio="20">3.3v</text>
 <text x="52.324" y="-40.386" size="1.778" layer="21">+</text>
 <text x="61.214" y="-40.386" size="1.778" layer="21">+</text>
-<text x="14.986" y="65.024" size="0.8128" layer="21" ratio="20" rot="R90">12v 2.2A</text>
+<text x="14.986" y="65.024" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">12v 2.2A</text>
 <text x="37.592" y="-2.032" size="1.016" layer="21" ratio="20" rot="R90">32k EEPROM</text>
 </plain>
 <libraries>
@@ -535,12 +535,12 @@ Noelle Smith, David Kalina</text>
 <pad name="A@2" x="-5.62" y="-5" drill="2" diameter="3.81"/>
 <pad name="H@2" x="7.38" y="0" drill="2" diameter="3.81"/>
 <pad name="B" x="5.38" y="5" drill="2" diameter="3.81" rot="R180"/>
-<text x="-11.35" y="-1" size="1.778" layer="21" font="vector">H</text>
-<text x="9.652" y="-1.016" size="1.778" layer="21">H</text>
-<text x="7.747" y="4.064" size="1.778" layer="21">B</text>
-<text x="7.874" y="-5.969" size="1.778" layer="21">B</text>
-<text x="-9.35" y="-6" size="1.778" layer="21">A</text>
-<text x="-9.35" y="4.27" size="1.778" layer="21">A</text>
+<text x="-11.35" y="-1" size="1.778" layer="21" font="vector" ratio="20">H</text>
+<text x="9.652" y="-1.016" size="1.778" layer="21" font="vector" ratio="20">H</text>
+<text x="7.747" y="4.064" size="1.778" layer="21" font="vector" ratio="20">B</text>
+<text x="7.874" y="-5.969" size="1.778" layer="21" font="vector" ratio="20">B</text>
+<text x="-9.35" y="-6" size="1.778" layer="21" font="vector" ratio="20">A</text>
+<text x="-9.35" y="4.27" size="1.778" layer="21" font="vector" ratio="20">A</text>
 <circle x="-0.12" y="0" radius="12" width="0.127" layer="21"/>
 <text x="-2.54" y="12.7" size="1.27" layer="25">&gt;Name</text>
 <text x="-2.54" y="-13.97" size="1.27" layer="27">&gt;Value</text>
@@ -13605,7 +13605,7 @@ design rules under a new name.</description>
 </element>
 <element name="U1" library="panda" package="DIL16" value="74HC4052" x="25.4" y="72.39" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.479" y="82.931" size="1.27" layer="25" ratio="20"/>
-<attribute name="VALUE" x="24.511" y="77.597" size="1.778" layer="27" ratio="20" rot="R270"/>
+<attribute name="VALUE" x="24.511" y="77.597" size="1.778" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U7" library="panda" package="R-78E" value="R-78E5.0-1.0" x="25.4" y="-24.13" smashed="yes">
 <attribute name="NAME" x="19.974" y="-21.0732" size="1.27" layer="25" ratio="20"/>
@@ -13754,8 +13754,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="65.008" y="0.873" size="1.27" layer="27" ratio="20"/>
 </element>
 <element name="F1" library="microbuilder" package="1206" value="1206L110" x="13.97" y="62.23" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.24" y="59.436" size="1.27" layer="25" ratio="20" rot="R180"/>
-<attribute name="VALUE" x="16.129" y="59.182" size="0.8128" layer="27" ratio="20" rot="R90"/>
+<attribute name="NAME" x="15.24" y="59.436" size="1.27" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="16.129" y="59.182" size="0.8128" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="U3" library="panda" package="EM7180SFP" value="EM7180SFP" x="68.58" y="-33.02" smashed="yes" rot="R90">
 <attribute name="VALUE" x="74.428" y="-31.25" size="1.27" layer="27" ratio="20" rot="R180"/>
@@ -13763,7 +13763,7 @@ design rules under a new name.</description>
 </element>
 <element name="U8" library="panda" package="SOT23-5" value="MC74VHC1GT125" x="40.64" y="76.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.735" y="76.581" size="0.8128" layer="25" font="vector" ratio="20" rot="R180"/>
-<attribute name="VALUE" x="35.1155" y="73.4695" size="0.8128" layer="27" ratio="20"/>
+<attribute name="VALUE" x="35.1155" y="73.4695" size="0.8128" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="JP26" library="SparkFun-Connectors" package="1X03" value="NEOP" x="48.26" y="81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="54.356" y="82.042" size="1.27" layer="25" ratio="20" rot="R180"/>
@@ -15040,10 +15040,8 @@ design rules under a new name.</description>
 <contactref element="S2" pad="B@2"/>
 <contactref element="JP2" pad="7"/>
 <contactref element="JP14" pad="2"/>
-<wire x1="38.1" y1="48.26" x2="44.45" y2="48.26" width="0.254" layer="16"/>
-<wire x1="44.45" y1="48.26" x2="46.99" y2="50.8" width="0.254" layer="16"/>
-<wire x1="46.99" y1="50.8" x2="46.99" y2="52.07" width="0.254" layer="16"/>
-<wire x1="46.99" y1="52.07" x2="48.26" y2="53.34" width="0.254" layer="16"/>
+<wire x1="38.1" y1="48.26" x2="43.18" y2="48.26" width="0.254" layer="16"/>
+<wire x1="43.18" y1="48.26" x2="48.26" y2="53.34" width="0.254" layer="16"/>
 <wire x1="48.26" y1="53.34" x2="57.15" y2="53.34" width="0.254" layer="16"/>
 <wire x1="57.15" y1="53.34" x2="66.04" y2="44.45" width="0.254" layer="16"/>
 <wire x1="66.04" y1="44.45" x2="67.31" y2="44.45" width="0.254" layer="16"/>
