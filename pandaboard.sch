@@ -535,6 +535,17 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <pad name="OUT+" x="7.366" y="-4.572" drill="1.016" shape="square"/>
 <text x="-6.35" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-6.35" y="-5.334" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="1.27" y1="-5.08" x2="4.572" y2="-5.08" width="0.3048" layer="21"/>
+<wire x1="4.572" y1="-5.08" x2="5.588" y2="-4.064" width="0.3048" layer="21"/>
+<wire x1="5.588" y1="-4.064" x2="5.588" y2="-0.508" width="0.3048" layer="21"/>
+<wire x1="5.588" y1="-0.508" x2="2.286" y2="-0.508" width="0.3048" layer="21"/>
+<wire x1="2.286" y1="-0.508" x2="1.27" y2="-1.524" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="-1.524" x2="1.27" y2="-5.08" width="0.3048" layer="21"/>
+<wire x1="-6.096" y1="-0.254" x2="-0.254" y2="-0.254" width="0.3048" layer="21"/>
+<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="-3.556" width="0.3048" layer="21"/>
+<wire x1="-0.254" y1="-3.556" x2="-6.096" y2="-3.556" width="0.3048" layer="21"/>
+<wire x1="-6.096" y1="-3.556" x2="-6.096" y2="-0.254" width="0.3048" layer="21"/>
+<circle x="-5.334" y="-2.794" radius="0.254" width="0.3048" layer="21"/>
 </package>
 <package name="SO18W">
 <wire x1="-5.395" y1="5.9" x2="6.695" y2="5.9" width="0.1998" layer="39"/>
@@ -13815,7 +13826,7 @@ Source: http://www.bourns.com/data/global/PDFs/MFMSMF.pdf</description>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="LED1" library="eagle-ltspice" deviceset="LED_E" device="" value="3VLED"/>
 <part name="JP16" library="panda" deviceset="JP1Q" device="JP1_LOCK" value="J3LED"/>
-<part name="JP21" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH_BREAD" value="12V"/>
+<part name="JP21" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH_BREAD" value="6-23V"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="JP0" library="pinhead" deviceset="PINHD-2X4" device=""/>

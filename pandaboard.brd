@@ -295,17 +295,17 @@ All jumpers</text>
 <text x="17.526" y="24.13" size="0.8128" layer="21" ratio="20">Closet: SCL to CSCL
 SDA to CSDA
 ADDR to 3.3v</text>
-<wire x1="30.988" y1="23.368" x2="16.764" y2="23.368" width="0.254" layer="21" style="shortdash"/>
-<wire x1="16.764" y1="23.368" x2="16.764" y2="29.21" width="0.254" layer="21" style="shortdash"/>
-<wire x1="16.764" y1="29.21" x2="30.988" y2="29.21" width="0.254" layer="21" style="shortdash"/>
-<wire x1="30.988" y1="29.21" x2="30.988" y2="26.416" width="0.254" layer="21" style="shortdash"/>
-<wire x1="30.988" y1="26.416" x2="30.988" y2="23.368" width="0.254" layer="21" style="shortdash"/>
-<wire x1="30.988" y1="26.416" x2="34.544" y2="22.606" width="0.254" layer="21" style="shortdash"/>
-<wire x1="25.654" y1="43.434" x2="33.782" y2="43.434" width="0.254" layer="21" style="shortdash"/>
-<wire x1="33.782" y1="43.434" x2="33.782" y2="37.846" width="0.254" layer="21" style="shortdash"/>
-<wire x1="33.782" y1="37.846" x2="25.654" y2="37.846" width="0.254" layer="21" style="shortdash"/>
-<wire x1="25.654" y1="37.846" x2="25.654" y2="43.434" width="0.254" layer="21" style="shortdash"/>
-<wire x1="25.654" y1="43.434" x2="28.194" y2="45.974" width="0.254" layer="21" style="shortdash"/>
+<wire x1="30.988" y1="23.368" x2="16.764" y2="23.368" width="0.254" layer="21"/>
+<wire x1="16.764" y1="23.368" x2="16.764" y2="29.21" width="0.254" layer="21"/>
+<wire x1="16.764" y1="29.21" x2="30.988" y2="29.21" width="0.254" layer="21"/>
+<wire x1="30.988" y1="29.21" x2="30.988" y2="26.416" width="0.254" layer="21"/>
+<wire x1="30.988" y1="26.416" x2="30.988" y2="23.368" width="0.254" layer="21"/>
+<wire x1="30.988" y1="26.416" x2="34.544" y2="22.606" width="0.254" layer="21"/>
+<wire x1="25.654" y1="43.434" x2="33.782" y2="43.434" width="0.254" layer="21"/>
+<wire x1="33.782" y1="43.434" x2="33.782" y2="37.846" width="0.254" layer="21"/>
+<wire x1="33.782" y1="37.846" x2="25.654" y2="37.846" width="0.254" layer="21"/>
+<wire x1="25.654" y1="37.846" x2="25.654" y2="43.434" width="0.254" layer="21"/>
+<wire x1="25.654" y1="43.434" x2="28.194" y2="45.974" width="0.254" layer="21"/>
 <wire x1="0" y1="22.86" x2="14.478" y2="22.86" width="0.254" layer="21"/>
 <wire x1="14.478" y1="22.86" x2="14.478" y2="7.62" width="0.254" layer="21"/>
 <wire x1="14.478" y1="7.62" x2="0" y2="7.62" width="0.254" layer="21"/>
@@ -324,12 +324,12 @@ ADDR to 3.3v</text>
 <wire x1="74.93" y1="-38.1" x2="72.39" y2="-38.1" width="0.254" layer="21"/>
 <text x="35.052" y="-29.21" size="0.8128" layer="21" ratio="20">Main: No jumper!
 Closet: Jumper</text>
-<wire x1="34.798" y1="-29.718" x2="34.798" y2="-26.67" width="0.254" layer="21" style="shortdash"/>
-<wire x1="34.798" y1="-26.67" x2="45.466" y2="-26.67" width="0.254" layer="21" style="shortdash"/>
-<wire x1="45.466" y1="-26.67" x2="45.466" y2="-29.718" width="0.254" layer="21" style="shortdash"/>
-<wire x1="45.466" y1="-29.718" x2="34.798" y2="-29.718" width="0.254" layer="21" style="shortdash"/>
-<wire x1="39.37" y1="-32.258" x2="45.466" y2="-29.718" width="0.254" layer="21" style="shortdash"/>
-<text x="7.112" y="-42.672" size="0.8128" layer="21" ratio="20">Center
+<wire x1="34.798" y1="-29.718" x2="34.798" y2="-26.67" width="0.254" layer="21"/>
+<wire x1="34.798" y1="-26.67" x2="45.466" y2="-26.67" width="0.254" layer="21"/>
+<wire x1="45.466" y1="-26.67" x2="45.466" y2="-29.718" width="0.254" layer="21"/>
+<wire x1="45.466" y1="-29.718" x2="34.798" y2="-29.718" width="0.254" layer="21"/>
+<wire x1="39.37" y1="-32.258" x2="45.466" y2="-29.718" width="0.254" layer="21"/>
+<text x="14.732" y="-38.862" size="0.8128" layer="21" ratio="20" rot="R90">Center
 Positive</text>
 <text x="39.116" y="91.44" size="1.778" layer="21" font="vector" ratio="20">Team PANDa Sensor Board</text>
 <text x="39.116" y="89.154" size="1.4224" layer="21" ratio="20">UCCS Senior Design Fall 2015</text>
@@ -675,6 +675,17 @@ Noelle Smith, David Kalina</text>
 <pad name="OUT+" x="7.366" y="-4.572" drill="1.016" shape="square"/>
 <text x="-6.35" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-6.35" y="-5.334" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="1.27" y1="-5.08" x2="4.572" y2="-5.08" width="0.3048" layer="21"/>
+<wire x1="4.572" y1="-5.08" x2="5.588" y2="-4.064" width="0.3048" layer="21"/>
+<wire x1="5.588" y1="-4.064" x2="5.588" y2="-0.508" width="0.3048" layer="21"/>
+<wire x1="5.588" y1="-0.508" x2="2.286" y2="-0.508" width="0.3048" layer="21"/>
+<wire x1="2.286" y1="-0.508" x2="1.27" y2="-1.524" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="-1.524" x2="1.27" y2="-5.08" width="0.3048" layer="21"/>
+<wire x1="-6.096" y1="-0.254" x2="-0.254" y2="-0.254" width="0.3048" layer="21"/>
+<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="-3.556" width="0.3048" layer="21"/>
+<wire x1="-0.254" y1="-3.556" x2="-6.096" y2="-3.556" width="0.3048" layer="21"/>
+<wire x1="-6.096" y1="-3.556" x2="-6.096" y2="-0.254" width="0.3048" layer="21"/>
+<circle x="-5.334" y="-2.794" radius="0.254" width="0.3048" layer="21"/>
 </package>
 <package name="DIL18">
 <description>&lt;B&gt;Dual In Line&lt;/B&gt;&lt;p&gt;
@@ -13578,7 +13589,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="57.023" y="-37.973" size="1.27" layer="27" ratio="20"/>
 </element>
 <element name="S0" library="panda" package="VOC" value="" x="55.88" y="68.58" smashed="yes">
-<attribute name="NAME" x="54.864" y="58.674" size="1.27" layer="25" ratio="20"/>
+<attribute name="NAME" x="53.848" y="57.404" size="2.54" layer="25" ratio="20"/>
 <attribute name="VALUE" x="53.34" y="54.61" size="1.27" layer="27"/>
 </element>
 <element name="TP2" library="testpad" package="P1-13" value="TPPAD1-13" x="12.7" y="81.28" smashed="yes" rot="R180">
@@ -13599,7 +13610,7 @@ design rules under a new name.</description>
 </element>
 <element name="U7" library="panda" package="R-78E" value="R-78E5.0-1.0" x="25.4" y="-24.13" smashed="yes">
 <attribute name="NAME" x="19.974" y="-21.0732" size="1.27" layer="25" ratio="20"/>
-<attribute name="VALUE" x="22.414" y="-21.696" size="0.6096" layer="27" ratio="20"/>
+<attribute name="VALUE" x="22.16" y="-21.95" size="0.6096" layer="27" ratio="20"/>
 </element>
 <element name="LED2" library="eagle-ltspice" package="LED_1206" value="5VLED" x="58.42" y="-39.37" smashed="yes" rot="R180">
 <attribute name="SPICEMODEL" value="NONE" x="58.42" y="-39.37" size="1.778" layer="27" rot="R180" display="off"/>
@@ -13623,10 +13634,10 @@ design rules under a new name.</description>
 <element name="JP16" library="panda" package="JP1" value="J3LED" x="44.45" y="-34.29" smashed="yes" rot="R180">
 <attribute name="VALUE" x="41.402" y="-38.481" size="1.27" layer="27" ratio="20"/>
 </element>
-<element name="JP21" library="SparkFun-Connectors" package="POWER_JACK_PTH_BREAD" value="12V" x="-2.54" y="-34.29" smashed="yes" rot="R270">
+<element name="JP21" library="SparkFun-Connectors" package="POWER_JACK_PTH_BREAD" value="6-23V" x="-2.54" y="-34.29" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="PRT-10811" x="-2.54" y="-34.29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="1.524" y="-31.242" size="1.016" layer="25" ratio="20"/>
-<attribute name="VALUE" x="0" y="-42.168" size="2.54" layer="27" ratio="20"/>
+<attribute name="VALUE" x="-0.508" y="-43.184" size="2.54" layer="27" ratio="20"/>
 </element>
 <element name="JP0" library="pinhead" package="2X04" value="" x="55.88" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="59.563" y="70.104" size="1.27" layer="25" ratio="20" rot="R270"/>
@@ -13641,7 +13652,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="65.151" y="52.197" size="1.27" layer="27" ratio="20"/>
 </element>
 <element name="S1" library="panda" package="VOC" value="" x="55.88" y="40.64" smashed="yes">
-<attribute name="NAME" x="54.864" y="50.8" size="1.27" layer="25" ratio="20"/>
+<attribute name="NAME" x="53.848" y="49.276" size="2.54" layer="25" ratio="20"/>
 <attribute name="VALUE" x="53.34" y="26.67" size="1.27" layer="27"/>
 </element>
 <element name="JP2" library="pinhead" package="2X04" value="" x="55.88" y="12.7" smashed="yes" rot="R270">
@@ -13673,7 +13684,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="63.627" y="24.765" size="1.27" layer="27" ratio="20"/>
 </element>
 <element name="S2" library="panda" package="VOC" value="" x="55.88" y="12.7" smashed="yes">
-<attribute name="NAME" x="54.864" y="2.032" size="1.27" layer="25" ratio="20"/>
+<attribute name="NAME" x="53.594" y="1.778" size="2.54" layer="25" ratio="20"/>
 <attribute name="VALUE" x="53.34" y="-1.27" size="1.27" layer="27"/>
 </element>
 <element name="R4" library="resistor" package="R1206" value="1k" x="68.58" y="-11.43" smashed="yes" rot="R90">
@@ -13681,7 +13692,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="67.945" y="-15.367" size="1.27" layer="27" ratio="20"/>
 </element>
 <element name="S3" library="panda" package="VOC" value="" x="55.88" y="-15.24" smashed="yes">
-<attribute name="NAME" x="54.61" y="-5.842" size="1.27" layer="25" ratio="20"/>
+<attribute name="NAME" x="53.848" y="-7.112" size="2.54" layer="25" ratio="20"/>
 <attribute name="VALUE" x="53.34" y="-29.21" size="1.27" layer="27"/>
 </element>
 <element name="JP3" library="pinhead" package="2X04" value="" x="55.88" y="-15.24" smashed="yes" rot="R270">
@@ -14954,7 +14965,8 @@ design rules under a new name.</description>
 <wire x1="59.69" y1="72.01" x2="59.69" y2="68.58" width="0.6096" layer="16"/>
 <wire x1="59.69" y1="68.58" x2="59.69" y2="65.15" width="0.6096" layer="16"/>
 <wire x1="59.69" y1="65.15" x2="61.26" y2="63.58" width="0.6096" layer="16"/>
-<wire x1="59.69" y1="68.58" x2="55.88" y2="68.58" width="0.254" layer="16"/>
+<wire x1="59.69" y1="68.58" x2="58.166" y2="68.58" width="0.254" layer="16"/>
+<wire x1="58.166" y1="68.58" x2="55.88" y2="68.58" width="0.254" layer="16"/>
 <wire x1="55.88" y1="68.58" x2="55.88" y2="66.04" width="0.254" layer="16"/>
 <wire x1="55.88" y1="66.04" x2="54.61" y2="64.77" width="0.254" layer="16"/>
 <wire x1="67.31" y1="79.604" x2="66.268" y2="78.588" width="0.254" layer="1"/>
@@ -15375,8 +15387,8 @@ design rules under a new name.</description>
 <via x="19.05" y="8.89" extent="1-16" drill="0.6"/>
 <wire x1="19.05" y1="8.89" x2="19.05" y2="10.16" width="0.254" layer="1"/>
 <wire x1="19.05" y1="10.16" x2="20.32" y2="11.43" width="0.254" layer="1"/>
-<wire x1="20.32" y1="11.43" x2="20.32" y2="15.24" width="0.254" layer="1"/>
-<wire x1="20.32" y1="15.24" x2="21.844" y2="17.526" width="0.254" layer="1"/>
+<wire x1="20.32" y1="11.43" x2="20.32" y2="16.002" width="0.254" layer="1"/>
+<wire x1="20.32" y1="16.002" x2="21.844" y2="17.526" width="0.254" layer="1"/>
 <via x="21.844" y="17.526" extent="1-16" drill="0.6"/>
 <wire x1="21.844" y1="17.526" x2="21.844" y2="23.876" width="0.254" layer="16"/>
 <wire x1="21.844" y1="23.876" x2="20.32" y2="25.4" width="0.254" layer="16"/>
