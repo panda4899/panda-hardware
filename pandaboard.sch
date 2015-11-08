@@ -484,6 +484,7 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <smd name="GND" x="5.08" y="2.54" dx="1.6" dy="2" layer="1" rot="R90"/>
 <text x="1.77" y="-4.07" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <text x="-2.24" y="1.53" size="1.27" layer="25" rot="R270">&gt;NAME</text>
+<rectangle x1="-2.54" y1="2.54" x2="-1.27" y2="3.81" layer="21"/>
 </package>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
