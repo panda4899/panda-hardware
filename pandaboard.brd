@@ -332,7 +332,7 @@ Positive</text>
 <text x="39.116" y="89.154" size="1.4224" layer="21" ratio="20">UCCS Senior Design Fall 2015</text>
 <text x="39.116" y="85.09" size="1.4224" layer="21" ratio="20">Paul Schow, Anton Pancheshnyy,
 Noelle Smith, David Kalina</text>
-<text x="-4.064" y="82.042" size="1.27" layer="21" ratio="20" rot="R270">commit 1a0c604989df31a57faa997a5bb3793aa23e65b9</text>
+<text x="-4.064" y="82.042" size="1.27" layer="21" ratio="20" rot="R270">commit 4d69ba1255bb41f3203d6b2bf646927747b4d6dc</text>
 <text x="13.97" y="90.932" size="0.6096" layer="21" ratio="20" rot="R180">SCLK</text>
 <text x="16.764" y="84.074" size="0.6096" layer="21" ratio="20" rot="R180">SPIEN0</text>
 <text x="19.304" y="84.836" size="0.6096" layer="21" ratio="20" rot="R180">SPIINT0</text>
