@@ -13787,8 +13787,8 @@ Source: http://www.bourns.com/data/global/PDFs/MFMSMF.pdf</description>
 <part name="JP5" library="panda" deviceset="RASPBERRYPI-B+-GPIO" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="R9" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
-<part name="R12" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
+<part name="R9" library="resistor" deviceset="R-US_" device="R1206" value="30k"/>
+<part name="R12" library="resistor" deviceset="R-US_" device="R1206" value="30k"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
@@ -13877,13 +13877,13 @@ Source: http://www.bourns.com/data/global/PDFs/MFMSMF.pdf</description>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
-<part name="R14" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
+<part name="R11" library="resistor" deviceset="R-US_" device="R1206" value="30k"/>
+<part name="R14" library="resistor" deviceset="R-US_" device="R1206" value="30k"/>
 <part name="U6" library="panda" deviceset="P82B715" device=""/>
 <part name="JP20" library="panda" deviceset="RJ45-8" device="PTH" value="RJ45"/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
-<part name="R13" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
+<part name="R10" library="resistor" deviceset="R-US_" device="R1206" value="30k"/>
+<part name="R13" library="resistor" deviceset="R-US_" device="R1206" value="30k"/>
 <part name="U5" library="panda" deviceset="P82B715" device=""/>
 <part name="JP19" library="panda" deviceset="RJ45-8" device="PTH" value="RJ45"/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
@@ -15200,7 +15200,7 @@ Sensor System Board</text>
 <instance part="LED1" gate="G$1" x="25.4" y="154.94" rot="R270"/>
 <instance part="JP16" gate="A" x="50.8" y="154.94" rot="R90"/>
 <instance part="JP21" gate="G$1" x="114.3" y="193.04" rot="R270"/>
-<instance part="F1" gate="G$1" x="124.46" y="137.16"/>
+<instance part="F1" gate="G$1" x="124.46" y="137.16" rot="R180"/>
 <instance part="U8" gate="G$1" x="231.14" y="137.16"/>
 <instance part="JP26" gate="G$1" x="264.16" y="129.54" rot="R180"/>
 <instance part="JP24" gate="A" x="238.76" y="190.5"/>
@@ -15487,7 +15487,7 @@ Sensor System Board</text>
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="137.16" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="137.16" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
 <label x="111.76" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -15589,7 +15589,7 @@ Sensor System Board</text>
 </net>
 <net name="PI5V" class="0">
 <segment>
-<wire x1="119.38" y1="137.16" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="137.16" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
 <label x="134.62" y="137.16" size="1.778" layer="95"/>
 <pinref part="F1" gate="G$1" pin="2"/>
 </segment>
